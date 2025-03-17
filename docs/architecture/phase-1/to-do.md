@@ -19,17 +19,17 @@ Starter Template Phase 1 Todo Checklist
 - [x] Install Prettier 3.x
 - [x] Create .prettierrc with configuration
 - [x] Add lint and format scripts to package.json
-- [ ] Create pre-commit hooks for linting and formatting
+- [x] Create pre-commit hooks for linting and formatting
 
 ## 1.3 Set Up Project Structure
 - [x] Create components/ directory
 - [x] Create app/ directory (for Next.js 14 App Router)
 - [x] Create lib/ directory for utility functions
 - [x] Create lib/utils/ directory for helper functions
-- [ ] Create contexts/ directory for React 18.x contexts
+- [x] Create contexts/ directory for React 18.x contexts
 - [x] Create hooks/ directory for custom hooks
 - [x] Create types/ directory for TypeScript 5.2+ types
-- [ ] Create tests/ directory
+- [x] Create tests/ directory
 - [x] Create styles/ directory for component-specific styles
 - [x] Create README.md with project overview and setup instructions
 - [ ] Create .env.example file
@@ -46,16 +46,16 @@ Starter Template Phase 1 Todo Checklist
 - [x] Create a responsive container component
 
 ## 1.5 Configure Testing Infrastructure
-- [ ] Install Jest 29.x and related dependencies
-- [ ] Install React Testing Library 14.x and dependencies
-- [ ] Configure jest.config.js
-- [ ] Set up jest.setup.js
-- [ ] Create test utilities in tests/utils/
-- [ ] Add test helper functions
-- [ ] Set up mock providers for testing
-- [ ] Write example test for Layout component
-- [ ] Write example test for a utility function
-- [ ] Add testing scripts to package.json
+- [x] Install Jest 29.x and related dependencies
+- [x] Install React Testing Library 14.x and dependencies
+- [x] Configure jest.config.js
+- [x] Set up jest.setup.js
+- [x] Create test utilities in tests/utils/
+- [x] Add test helper functions
+- [x] Set up mock providers for testing
+- [x] Write example test for Layout component
+- [x] Write example test for a utility function
+- [x] Add testing scripts to package.json
 
 # Chunk 2: Supabase Integration
 
