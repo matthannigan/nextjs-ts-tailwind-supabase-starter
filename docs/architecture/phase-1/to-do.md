@@ -41,9 +41,9 @@ Starter Template Phase 1 Todo Checklist
 - [x] Add global styles to styles/globals.css
 - [x] Create components/ui/ directory for reusable UI components
 - [x] Implement components/ui/Button.tsx with TailwindCSS 3.3+
-- [ ] Create components/ui/Card.tsx
-- [ ] Implement components/ui/Input.tsx
-- [ ] Create a responsive container component
+- [x] Create components/ui/Card.tsx
+- [x] Implement components/ui/Input.tsx
+- [x] Create a responsive container component
 
 ## 1.5 Configure Testing Infrastructure
 - [ ] Install Jest 29.x and related dependencies
