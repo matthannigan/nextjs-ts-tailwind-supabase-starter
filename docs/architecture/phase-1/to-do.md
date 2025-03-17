@@ -2,45 +2,45 @@ Starter Template Phase 1 Todo Checklist
 # Chunk 1: Project Setup
 
 ## 1.1 Initialize Next.js Project
-- [ ] Create Next.js 14 project with TypeScript 5.2+
-- [ ] Initialize Git repository
-- [ ] Create initial commit
-- [ ] Set up .gitignore for Next.js
-- [ ] Configure tsconfig.json for proper TypeScript 5.2+ settings
-- [ ] Create package.json scripts for development, build, and start
+- [x] Create Next.js 14 project with TypeScript 5.2+
+- [x] Initialize Git repository
+- [x] Create initial commit
+- [x] Set up .gitignore for Next.js
+- [x] Configure tsconfig.json for proper TypeScript 5.2+ settings
+- [x] Create package.json scripts for development, build, and start
 
 ## 1.2 Configure Styling and Linting
-- [ ] Install TailwindCSS 3.3+ and dependencies
-- [ ] Configure tailwind.config.js
-- [ ] Set up postcss.config.js
-- [ ] Create global.css with Tailwind imports
-- [ ] Install ESLint 8.x and dependencies
-- [ ] Configure .eslintrc.js with TypeScript and React rules
-- [ ] Install Prettier 3.x
-- [ ] Create .prettierrc with configuration
-- [ ] Add lint and format scripts to package.json
+- [x] Install TailwindCSS 3.3+ and dependencies
+- [x] Configure tailwind.config.js
+- [x] Set up postcss.config.js
+- [x] Create global.css with Tailwind imports
+- [x] Install ESLint 8.x and dependencies
+- [x] Configure .eslintrc.js with TypeScript and React rules
+- [x] Install Prettier 3.x
+- [x] Create .prettierrc with configuration
+- [x] Add lint and format scripts to package.json
 - [ ] Create pre-commit hooks for linting and formatting
 
 ## 1.3 Set Up Project Structure
-- [ ] Create components/ directory
-- [ ] Create app/ directory (for Next.js 14 App Router)
-- [ ] Create lib/ directory for utility functions
-- [ ] Create utils/ directory for helper functions
+- [x] Create components/ directory
+- [x] Create app/ directory (for Next.js 14 App Router)
+- [x] Create lib/ directory for utility functions
+- [x] Create lib/utils/ directory for helper functions
 - [ ] Create contexts/ directory for React 18.x contexts
-- [ ] Create hooks/ directory for custom hooks
-- [ ] Create types/ directory for TypeScript 5.2+ types
+- [x] Create hooks/ directory for custom hooks
+- [x] Create types/ directory for TypeScript 5.2+ types
 - [ ] Create tests/ directory
-- [ ] Create styles/ directory for component-specific styles
-- [ ] Create README.md with project overview and setup instructions
+- [x] Create styles/ directory for component-specific styles
+- [x] Create README.md with project overview and setup instructions
 - [ ] Create .env.example file
 
 ## 1.4 Implement Basic Layout Components
-- [ ] Create components/layout/Layout.tsx component
-- [ ] Implement components/layout/Header.tsx
-- [ ] Create components/layout/Footer.tsx
-- [ ] Add global styles to styles/globals.css
-- [ ] Create components/ui/ directory for reusable UI components
-- [ ] Implement components/ui/Button.tsx with TailwindCSS 3.3+
+- [x] Create app/layout.tsx component
+- [x] Implement components/layout/Header.tsx
+- [x] Create components/layout/Footer.tsx
+- [x] Add global styles to styles/globals.css
+- [x] Create components/ui/ directory for reusable UI components
+- [x] Implement components/ui/Button.tsx with TailwindCSS 3.3+
 - [ ] Create components/ui/Card.tsx
 - [ ] Implement components/ui/Input.tsx
 - [ ] Create a responsive container component
