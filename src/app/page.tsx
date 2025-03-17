@@ -20,7 +20,7 @@ export default function Home() {
                 Dashboard
               </Button>
             </Link>
-            <Link href="/(auth)/login">
+            <Link href="/login">
               <Button variant="outline" size="lg">
                 Login
               </Button>
