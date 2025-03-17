@@ -46,6 +46,8 @@ Please provide:
 5. Updates to package.json for test scripts
 
 Make sure the testing setup follows best practices for Next.js 14 applications and enables effective testing of both UI components and utility functions.
+
+Also refer to the tasks listed in 1.5 Configure Testing Infrastructure in ./to-do.md. As tasks are completed mark them with [x].
 ```
 
 # Prompt 3: Supabase Setup and Configuration
