@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import Button from '@/components/ui/Button';
+import { Button } from '@/components/ui/Button';
 
 export default function Home() {
   return (
@@ -11,12 +11,13 @@ export default function Home() {
               Next.js TypeScript Tailwind Supabase Starter
             </h1>
             <p className="mx-auto max-w-[700px] text-gray-500 md:text-xl">
-              A modern full-stack starter template with Next.js, TypeScript, Tailwind CSS, and Supabase.
+              A modern full-stack starter template with Next.js, TypeScript, Tailwind CSS, and
+              Supabase.
             </p>
           </div>
           <div className="flex flex-col gap-2 min-[400px]:flex-row">
             <Link href="/dashboard">
-              <Button variant="primary" size="lg">
+              <Button variant="default" size="lg">
                 Dashboard
               </Button>
             </Link>
