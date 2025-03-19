@@ -1,0 +1,55 @@
+---
+description: 
+globs: *.tsx
+alwaysApply: false
+---
+# TypeScript Type Safety Rules
+
+When generating or modifying any TypeScript files, follow these strict typing guidelines:
+
+## Avoid `any` Type
+- Never use the `any` type unless explicitly requested by the user
+- Replace `any` with appropriate specific types based on context:
+  - Use proper interfaces and type definitions
+  - If type is truly unknown, prefer `unknown` over `any`
+  - For generic objects, use `Record<string, unknown>` instead of `{[key: string]: any}`
+  - For functions with callbacks, define proper function signatures
+
+## Type Definitions
+- Create proper interfaces or type aliases for complex data structures
+- Extend existing types when adding to existing structures: `interface ExtendedType extends BaseType {}`
+- Use union types (`type Result = Success | Error`) rather than overly generic types
+- Leverage TypeScript utility types: `Partial<T>`, `Required<T>`, `Pick<T>`, `Omit<T>`, etc.
+
+## Function Types
+- Always specify parameter and return types for functions
+- Use function overloads for functions that can accept multiple parameter types
+- For class methods, specify proper return types and parameter types
+- For event handlers, use the appropriate event types from the relevant library
+
+## Type Inference
+- Let TypeScript infer types when the inference is clear and specific
+- Explicitly declare types when inference might be too broad or ambiguous
+- For variables initialized with literals, allow inference unless type needs to be broader
+
+## Generics
+- Use generics for reusable components, functions, and data structures
+- Provide appropriate constraints on generic parameters: `<T extends BaseType>`
+- For containers/collections, specify their contained type: `Array<Item>`, `Map<Key, Value>`
+
+## External Libraries
+- Use proper type imports from libraries (`import type { SomeType } from 'library'`)
+- Never cast external library objects to `any`
+- For untyped libraries, create declaration files with proper types instead of using `any`
+
+## Error Handling
+- Define specific error types instead of using `any` for errors
+- Use discriminated unions for different error cases
+
+## Asynchronous Code
+- Specify return types for async functions: `async function getData(): Promise<DataType>`
+- Use `Promise<T>` with specific types rather than `Promise<any>`
+
+## Default Fallbacks
+- If a type is truly impossible to determine, explain in a comment why `unknown` is being used
+- Never use type assertions (`as any`) to bypass type checking
