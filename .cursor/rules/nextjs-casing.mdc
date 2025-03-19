@@ -1,0 +1,10 @@
+---
+description: 
+globs: *.tsx
+alwaysApply: false
+---
+# Next.js Casing Standards
+
+- Component files should use Pascal case (e.g., `Header.tsx`, `Layout.tsx`)
+- Variables, functions, and hooks should use camel case (e.g., `useAuth`, `getUserById`)
+- Use lowercase with dashes for directories (e.g., `components/auth-wizard`)
