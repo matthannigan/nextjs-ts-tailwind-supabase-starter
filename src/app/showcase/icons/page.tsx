@@ -20,7 +20,7 @@ import {
   Menu,
   Trash2,
 } from 'lucide-react';
-import Container from '@/components/ui/Container';
+import Container from '@/components/ui/container';
 import ButtonExamples from './button-examples';
 
 export default function IconsShowcase() {

@@ -12,18 +12,17 @@ import { LucideUser, PlusCircle, Moon, Sun, Check, ChevronRight, Search } from '
  * Base Components
  */
 import {
-  Button,
-  Input,
-  Label,
   Avatar,
-  AvatarFallback,
+  AvatarFallback, 
   AvatarImage,
+  Button,
   Card,
   CardContent,
   CardDescription,
   CardFooter,
   CardHeader,
   CardTitle,
+  Container,
   Dialog,
   DialogContent,
   DialogDescription,
@@ -31,6 +30,11 @@ import {
   DialogHeader,
   DialogTitle,
   DialogTrigger,
+  DropdownMenu,
+  DropdownMenuContent,
+  DropdownMenuItem,
+  DropdownMenuSeparator,
+  DropdownMenuTrigger,
   Form,
   FormControl,
   FormDescription,
@@ -38,20 +42,8 @@ import {
   FormItem,
   FormLabel,
   FormMessage,
-  Tabs,
-  TabsContent,
-  TabsList,
-  TabsTrigger,
-  DropdownMenu,
-  DropdownMenuContent,
-  DropdownMenuItem,
-  DropdownMenuTrigger,
-  DropdownMenuSeparator,
-} from '@/components/ui';
-
-// Import components with casing issues directly
-import Container from '@/components/ui/Container';
-import {
+  Input,
+  Label,
   Table,
   TableBody,
   TableCaption,
@@ -59,7 +51,11 @@ import {
   TableHead,
   TableHeader,
   TableRow,
-} from '@/components/ui/Table';
+  Tabs,
+  TabsContent,
+  TabsList,
+  TabsTrigger,
+} from '@/components/ui';
 
 /**
  * Custom Composite Components
