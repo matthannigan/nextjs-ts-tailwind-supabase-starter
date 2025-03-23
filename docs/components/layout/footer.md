@@ -5,7 +5,7 @@ The Footer component provides a consistent footer section at the bottom of your 
 ## Import
 
 ```tsx
-import Footer from '@/components/layout/footer';
+import Footer from '@/components/layout/Footer';
 ```
 
 ## Usage
@@ -15,7 +15,7 @@ import Footer from '@/components/layout/footer';
 The Footer component is typically used in your root layout to ensure it appears on all pages:
 
 ```tsx
-import Footer from '@/components/layout/footer';
+import Footer from '@/components/layout/Footer';
 
 export default function RootLayout({ children }) {
   return (
@@ -39,13 +39,13 @@ export default function RootLayout({ children }) {
 
 The Footer component currently doesn't accept props for customization. To modify the Footer:
 
-1. Edit the component directly in `src/components/layout/footer.tsx`
+1. Edit the component directly in `src/components/layout/Footer.tsx`
 2. Create a new component that extends or replaces the default Footer
 
 ### Example: Adding Social Media Links
 
 ```tsx
-// In src/components/layout/footer.tsx
+// In src/components/layout/Footer.tsx
 export default function Footer() {
   return (
     <footer className="w-full py-6 px-6 bg-gray-100">

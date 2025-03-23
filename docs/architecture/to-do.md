@@ -36,8 +36,8 @@ Starter Template Phase 1 Todo Checklist
 
 ## 1.4 Implement Basic Layout Components
 - [x] Create app/layout.tsx component
-- [x] Implement components/layout/Header.tsx
-- [x] Create components/layout/Footer.tsx
+- [x] Implement components/layout/header.tsx
+- [x] Create components/layout/footer.tsx
 - [x] Add global styles to styles/globals.css
 - [x] Create components/ui/ directory for reusable UI components
 - [x] Implement components/ui/Button.tsx with TailwindCSS 3.3+

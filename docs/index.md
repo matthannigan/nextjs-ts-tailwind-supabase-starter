@@ -30,11 +30,11 @@ Documentation for the reusable UI components included in the project.
 
 These components provide the foundation for page layouts:
 
-#### [Header](components/layout/Header.md)
+#### [Header](components/layout/header.md)
 
 The application header component that provides a consistent navigation bar at the top of your application with links to key pages.
 
-#### [Footer](components/layout/Footer.md)
+#### [Footer](components/layout/footer.md)
 
 The application footer component that provides a consistent footer section at the bottom of your application with copyright information.
 

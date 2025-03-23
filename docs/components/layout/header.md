@@ -5,7 +5,7 @@ The Header component provides a consistent navigation bar at the top of your app
 ## Import
 
 ```tsx
-import Header from '@/components/layout/header';
+import Header from '@/components/layout/Header';
 ```
 
 ## Usage
@@ -15,7 +15,7 @@ import Header from '@/components/layout/header';
 The Header component is typically used in your root layout to ensure it appears on all pages:
 
 ```tsx
-import Header from '@/components/layout/header';
+import Header from '@/components/layout/Header';
 
 export default function RootLayout({ children }) {
   return (
@@ -39,13 +39,13 @@ export default function RootLayout({ children }) {
 
 The Header component currently doesn't accept props for customization. To modify the Header:
 
-1. Edit the component directly in `src/components/layout/header.tsx`
+1. Edit the component directly in `src/components/layout/Header.tsx`
 2. Create a new component that extends or replaces the default Header
 
 ### Example: Adding a New Navigation Link
 
 ```tsx
-// In src/components/layout/header.tsx
+// In src/components/layout/Header.tsx
 <nav>
   <ul className="flex space-x-4">
     <li>
@@ -76,7 +76,7 @@ The Header component currently doesn't accept props for customization. To modify
 ### Example: Creating a Custom Header
 
 ```tsx
-import Header from '@/components/layout/header';
+import Header from '@/components/layout/Header';
 
 export default function CustomHeader() {
   return (
