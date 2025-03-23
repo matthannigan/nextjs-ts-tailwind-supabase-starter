@@ -4,17 +4,25 @@ import re
 import sys
 from pathlib import Path
 
+def kebab_to_title_case(text):
+    # Split by dash, capitalize each part, then join with spaces
+    return ' '.join(word.capitalize() for word in text.split('-'))
+
+def kebab_to_pascal_case(text):
+    # Split by dash, capitalize each part, then join without spaces
+    return ''.join(word.capitalize() for word in text.split('-'))
+
 def extract_prompt_template(prompts_file_path):
-    """Extract the UI Components prompt template from the prompts.md file."""
+    """Extract the Components prompt template from the prompts.md file."""
     with open(prompts_file_path, 'r') as file:
         content = file.read()
     
-    # Extract the template between the UI Components section and the next section
-    ui_section_match = re.search(r'## UI Components\s+```\s+(.*?)```', content, re.DOTALL)
+    # Extract the template between the Components section and the next section
+    ui_section_match = re.search(r'## Components\s+```\s+(.*?)```', content, re.DOTALL)
     if ui_section_match:
         return ui_section_match.group(1)
     else:
-        print("Error: Could not find UI Components template in prompts.md")
+        print("Error: Could not find Components template in prompts.md")
         sys.exit(1)
 
 def find_react_components(components_dir):
@@ -51,15 +59,17 @@ def create_documentation(component, template, docs_dir):
     # Create directory if it doesn't exist
     os.makedirs(doc_dir, exist_ok=True)
     
-    # Replace [Component Name] in template with actual component name
-    doc_content = template.replace('[Component Name]', component['name'])
+    # Replace [component-name], [Component Name], [ComponentName] in template with actual component names
+    doc_content = template.replace('[component-name]', component['name'])
+    doc_content = doc_content.replace('[Component Name]', kebab_to_title_case(component['name']))
+    doc_content = doc_content.replace('[ComponentName]',  kebab_to_pascal_case(component['name']))
     
     # Update file paths to use correct relative paths
     component_path = os.path.join('/src/components', rel_dir, f"{component['name']}.tsx")
-    doc_content = doc_content.replace('/src/components/ui/[component-name].tsx', component_path)
+    doc_content = doc_content.replace('/src/components/[path]/[component-name].tsx', component_path)
     
     doc_path = os.path.join('/docs/components', rel_dir, f"{component['name']}.md")
-    doc_content = doc_content.replace('/docs/components/ui/[component-name].md', doc_path)
+    doc_content = doc_content.replace('/src/components/[path]/[component-name].md', doc_path)
     
     # Write the documentation file
     with open(doc_file, 'w') as file:
