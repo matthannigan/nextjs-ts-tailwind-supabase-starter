@@ -79,6 +79,15 @@ export default function Header() {
                     >
                       Icons
                     </Link>
+                    <Link
+                      href="/showcase/mobile"
+                      className="block px-4 py-2 text-sm text-foreground hover:bg-muted"
+                      onClick={() => {
+                        setShowDropdown(false);
+                      }}
+                    >
+                      Mobile Version
+                    </Link>
                   </div>
                 </div>
               )}

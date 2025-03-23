@@ -1,10 +1,14 @@
-import NavbarMobile from '@/components/navigation/navbar-mobile';
+import { Heading, Lead } from '@/components/ui/typography';
 
-export default function Layout({ children }: { children: React.ReactNode }) {
+export default function MobileShowcase() {
   return (
-    <>
-      <main>{children}</main>
-      <NavbarMobile />
-    </>
+    <div className="container mx-auto py-10 space-y-8">
+      <div className="text-center">
+        <Heading as="h1" size="h2" className="mb-4">
+          Mobile Showcase
+        </Heading>
+        <Lead>Explore a mobile showcase of our components</Lead>
+      </div>
+    </div>
   );
 }
