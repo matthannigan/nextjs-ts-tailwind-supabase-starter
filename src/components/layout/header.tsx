@@ -3,7 +3,7 @@
 import Link from 'next/link';
 import { useState, useRef, useEffect } from 'react';
 import { Home, LayoutDashboard, LogIn, ChevronDown, Palette } from 'lucide-react';
-import { ThemeSwitch } from '@/components/ui/ThemeSwitch';
+import { ThemeSwitch } from '@/components/ui/theme-switch';
 import { cn } from '@/lib/utils';
 
 export default function Header() {

@@ -5,7 +5,7 @@ The Card component is a versatile container for displaying content in a containe
 ## Import
 
 ```tsx
-import Card from '@/components/ui/Card';
+import Card from '@/components/ui/card';
 ```
 
 ## Usage

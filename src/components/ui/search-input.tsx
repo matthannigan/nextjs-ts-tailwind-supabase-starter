@@ -2,7 +2,7 @@
 
 import { useState, useRef, FormEvent, HTMLAttributes } from 'react';
 import { Search } from 'lucide-react';
-import { Button } from '@/components/ui/Button';
+import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 import { cn } from '@/lib/utils';
 

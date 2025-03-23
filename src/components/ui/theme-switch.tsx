@@ -1,7 +1,7 @@
 'use client';
 
 import { useTheme } from '@/contexts/theme-provider';
-import { Button } from '@/components/ui/Button';
+import { Button } from '@/components/ui/button';
 import { Sun, Moon } from 'lucide-react';
 
 export function ThemeSwitch() {

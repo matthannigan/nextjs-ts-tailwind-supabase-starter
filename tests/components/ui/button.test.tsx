@@ -1,5 +1,5 @@
 import { render, screen } from '../../utils/test-utils';
-import { Button } from '../../../src/components/ui/Button';
+import { Button } from '../../../src/components/ui/button';
 import { Check } from 'lucide-react';
 import { ReactNode } from 'react';
 

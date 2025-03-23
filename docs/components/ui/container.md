@@ -5,7 +5,7 @@ The Container component provides a responsive wrapper with consistent padding an
 ## Import
 
 ```tsx
-import Container from '@/components/ui/Container';
+import Container from '@/components/ui/container';
 ```
 
 ## Usage

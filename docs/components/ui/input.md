@@ -5,7 +5,7 @@ The Input component is a flexible and customizable form control for capturing us
 ## Import
 
 ```tsx
-import Input from '@/components/ui/Input';
+import Input from '@/components/ui/input';
 ```
 
 ## Usage

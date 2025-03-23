@@ -2,13 +2,13 @@ import { render, screen } from '../utils/test-utils';
 import React from 'react';
 
 // Mock the Header and Footer components
-jest.mock('../../src/components/layout/Header', () => {
+jest.mock('../../src/components/layout/header', () => {
   return function MockHeader() {
     return <div data-testid="mock-header">Header Component</div>;
   };
 });
 
-jest.mock('../../src/components/layout/Footer', () => {
+jest.mock('../../src/components/layout/footer', () => {
   return function MockFooter() {
     return <div data-testid="mock-footer">Footer Component</div>;
   };

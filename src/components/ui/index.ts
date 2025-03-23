@@ -7,7 +7,16 @@ export * from './card';
 export * from './container';
 export * from './dialog';
 export * from './dropdown-menu';
-export * from './form';
+import {
+  Form,
+  FormControl,
+  FormDescription,
+  FormField,
+  FormItem,
+  FormLabel,
+  FormMessage,
+} from './form';
+export { Form, FormControl, FormDescription, FormField, FormItem, FormLabel, FormMessage };
 export * from './input';
 export * from './label';
 import {
