@@ -1,5 +1,5 @@
 import { render, screen } from '../../utils/test-utils';
-import { Heading, Text, Lead, Blockquote, InlineCode } from '../../../src/components/ui/Typography';
+import { Heading, Text, Lead, Blockquote, InlineCode } from '../../../src/components/ui/typography';
 
 describe('Typography Components', () => {
   describe('Heading', () => {

@@ -7,7 +7,7 @@ import {
   FormControl,
   FormDescription,
   FormMessage,
-} from '../../../src/components/ui/Form';
+} from '../../../src/components/ui/form';
 import { useForm } from 'react-hook-form';
 
 // Mock react-hook-form

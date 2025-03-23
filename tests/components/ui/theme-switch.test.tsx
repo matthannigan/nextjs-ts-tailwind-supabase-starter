@@ -1,5 +1,5 @@
 import { render, screen, fireEvent } from '../../utils/test-utils';
-import { ThemeSwitch } from '../../../src/components/ui/ThemeSwitch';
+import { ThemeSwitch } from '../../../src/components/ui/theme-switch';
 import { useTheme } from '../../../src/contexts/theme-provider';
 
 // Mock the theme context

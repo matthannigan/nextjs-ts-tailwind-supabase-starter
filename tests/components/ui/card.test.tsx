@@ -6,7 +6,7 @@ import {
   CardTitle,
   CardDescription,
   CardContent,
-} from '../../../src/components/ui/Card';
+} from '../../../src/components/ui/card';
 
 describe('Card', () => {
   it('renders a basic card with content', () => {

@@ -1,5 +1,5 @@
 import { render, screen } from '../../utils/test-utils';
-import Container from '../../../src/components/ui/Container';
+import Container from '../../../src/components/ui/container';
 
 describe('Container', () => {
   it('renders children correctly', () => {

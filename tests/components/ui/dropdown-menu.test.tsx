@@ -10,7 +10,7 @@ import {
   DropdownMenuLabel,
   DropdownMenuSeparator,
   DropdownMenuShortcut,
-} from '../../../src/components/ui/DropdownMenu';
+} from '../../../src/components/ui/dropdown-menu';
 
 // Mock Radix UI DropdownMenu
 jest.mock('@radix-ui/react-dropdown-menu', () => ({

@@ -1,5 +1,5 @@
 import { render, screen } from '../utils/test-utils';
-import Header from '../../src/components/layout/header';
+import Header from '../../src/components/layout/Header';
 
 describe('Header', () => {
   it('renders the logo and navigation links', () => {

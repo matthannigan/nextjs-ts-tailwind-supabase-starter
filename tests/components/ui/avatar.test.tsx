@@ -1,5 +1,5 @@
 import { render, screen } from '../../utils/test-utils';
-import { Avatar, AvatarImage, AvatarFallback } from '../../../src/components/ui/Avatar';
+import { Avatar, AvatarImage, AvatarFallback } from '../../../src/components/ui/avatar';
 import Image from 'next/image';
 import { ReactNode } from 'react';
 

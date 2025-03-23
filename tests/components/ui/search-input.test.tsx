@@ -1,5 +1,5 @@
 import { render, screen, fireEvent } from '../../utils/test-utils';
-import { SearchInput } from '../../../src/components/ui/SearchInput';
+import { SearchInput } from '../../../src/components/ui/search-input';
 
 describe('SearchInput', () => {
   it('renders correctly with default props', () => {

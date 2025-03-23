@@ -1,5 +1,5 @@
 import { render, screen } from '../../utils/test-utils';
-import { ContentCard } from '../../../src/components/ui/ContentCard';
+import { ContentCard } from '../../../src/components/ui/content-card';
 
 // Mocking next/image
 jest.mock('next/image', () => ({

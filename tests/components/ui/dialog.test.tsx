@@ -8,7 +8,7 @@ import {
   DialogTitle,
   DialogDescription,
   DialogFooter,
-} from '../../../src/components/ui/Dialog';
+} from '../../../src/components/ui/dialog';
 
 // Mock Radix UI Dialog
 jest.mock('@radix-ui/react-dialog', () => ({

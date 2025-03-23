@@ -1,5 +1,5 @@
 import { render, screen, fireEvent } from '../../utils/test-utils';
-import { Input } from '../../../src/components/ui/Input';
+import { Input } from '../../../src/components/ui/input';
 
 describe('Input', () => {
   it('renders correctly', () => {
