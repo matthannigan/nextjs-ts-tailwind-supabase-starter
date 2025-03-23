@@ -1,15 +1,15 @@
 /**
  * Base shadcn/ui components
  */
-export * from './Avatar';
-export * from './Button';
-export * from './Card';
-export * from './Container';
-export * from './Dialog';
-export * from './DropdownMenu';
-export * from './Form';
-export * from './Input';
-export * from './Label';
+export * from './avatar';
+export * from './button';
+export * from './card';
+export * from './container';
+export * from './dialog';
+export * from './dropdown-menu';
+export * from './form';
+export * from './input';
+export * from './label';
 import {
   Table,
   TableBody,
@@ -18,9 +18,9 @@ import {
   TableHead,
   TableHeader,
   TableRow,
-} from './Table';
+} from './table';
 export { Table, TableBody, TableCaption, TableCell, TableHead, TableHeader, TableRow };
-export * from './Tabs';
+export * from './tabs';
 import {
   Toast,
   ToastAction,
@@ -29,7 +29,7 @@ import {
   ToastProvider,
   ToastTitle,
   ToastViewport,
-} from './Toast';
+} from './toast';
 export {
   Toast,
   ToastAction,
@@ -39,22 +39,22 @@ export {
   ToastTitle,
   ToastViewport,
 };
-export * from './Toaster';
+export * from './toaster';
 
 /**
  * Custom composite components
  */
-export * from './ContentCard';
-export * from './NavigationMenu';
-export * from './SearchInput';
-export * from './ThemeSwitch';
+export * from './content-card';
+export * from './navigation-menu';
+export * from './search-input';
+export * from './theme-switch';
 
 /**
  * Layout components
  */
-export * from './Layout';
+//export * from './layout';
 
 /**
  * Typography components
  */
-export * from './Typography';
+export * from './typography';

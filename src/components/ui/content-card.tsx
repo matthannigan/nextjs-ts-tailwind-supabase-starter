@@ -4,9 +4,9 @@ import { ReactNode } from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
 import { ChevronRight } from 'lucide-react';
-import { Card, CardContent, CardFooter, CardHeader } from '@/components/ui/Card';
+import { Card, CardContent, CardFooter, CardHeader } from '@/components/ui/card';
 import { Button } from '@/components/ui/Button';
-import { Heading } from '@/components/ui/Typography';
+import { Heading } from '@/components/ui/typography';
 import { cn } from '@/lib/utils';
 import { aspectRatio, truncateText } from '@/lib/ui-utils';
 
