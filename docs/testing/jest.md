@@ -103,11 +103,11 @@ describe('formatDate', () => {
 ### 2. Component Testing with React Testing Library
 
 ```tsx
-// components/Button.test.tsx
+// components/button.test.tsx
 import React from 'react';
 import { render, screen } from '@testing-library/react';
 import userEvent from '@testing-library/user-event';
-import Button from './Button';
+import Button from './button';
 
 describe('Button', () => {
   it('renders correctly', () => {

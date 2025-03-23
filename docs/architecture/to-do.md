@@ -40,9 +40,9 @@ Starter Template Phase 1 Todo Checklist
 - [x] Create components/layout/footer.tsx
 - [x] Add global styles to styles/globals.css
 - [x] Create components/ui/ directory for reusable UI components
-- [x] Implement components/ui/Button.tsx with TailwindCSS 3.3+
-- [x] Create components/ui/Card.tsx
-- [x] Implement components/ui/Input.tsx
+- [x] Implement components/ui/button.tsx with TailwindCSS 3.3+
+- [x] Create components/ui/card.tsx
+- [x] Implement components/ui/input.tsx
 - [x] Create a responsive container component
 
 ## 1.5 Configure Testing Infrastructure
@@ -106,7 +106,7 @@ Starter Template Phase 1 Todo Checklist
 # Chunk 3: User Authentication
 
 ## 3.1 Create Authentication Context
-- [ ] Create contexts/AuthContext.tsx with React 18.x Context API
+- [ ] Create contexts/auth-context.tsx with React 18.x Context API
 - [ ] Implement authentication state interface
 - [ ] Create useAuth hook
 - [ ] Implement loading states
@@ -118,7 +118,7 @@ Starter Template Phase 1 Todo Checklist
 - [ ] Document authentication context usage
 
 ## 3.2 Implement Registration Flow
-- [ ] Create components/auth/RegisterForm.tsx
+- [ ] Create components/auth/register-form.tsx
 - [ ] Implement form state management with React 18.x
 - [ ] Create input validation with Zod 3.x
 - [ ] Implement error display
@@ -130,7 +130,7 @@ Starter Template Phase 1 Todo Checklist
 - [ ] Document registration workflow
 
 ## 3.3 Build Login Functionality
-- [ ] Create components/auth/LoginForm.tsx
+- [ ] Create components/auth/login-form.tsx
 - [ ] Implement form state management
 - [ ] Create input validation with Zod 3.x
 - [ ] Implement error display
@@ -142,7 +142,7 @@ Starter Template Phase 1 Todo Checklist
 - [ ] Document login workflow
 
 ## 3.4 Create Anonymous Session Handling
-- [ ] Create components/auth/AnonymousLoginForm.tsx
+- [ ] Create components/auth/anonymous-login-form.tsx
 - [ ] Implement anonymous session creation in AuthContext with Supabase Auth
 - [ ] Create session persistence for anonymous sessions
 - [ ] Implement session recovery mechanism

@@ -42,15 +42,15 @@ The application footer component that provides a consistent footer section at th
 
 These are the core UI components for building interfaces:
 
-#### [Card](components/ui/Card.md)
+#### [Card](components/ui/card.md)
 
 A versatile container component for displaying content in a contained, styled box with various appearance options including different variants, padding, and rounded corner options.
 
-#### [Container](components/ui/Container.md)
+#### [Container](components/ui/container.md)
 
 A responsive wrapper component with consistent padding and width constraints for content, supporting different size and padding options.
 
-#### [Input](components/ui/Input.md)
+#### [Input](components/ui/input.md)
 
 A flexible and customizable form control component for capturing user input with various states and styles, including label support, error states, and different size options.
 
