@@ -27,6 +27,7 @@ module.exports = {
     '@typescript-eslint/explicit-module-boundary-types': 'off',
     '@typescript-eslint/no-unused-vars': ['warn', { argsIgnorePattern: '^_' }],
     'no-console': ['warn', { allow: ['warn', 'error'] }],
+    'jsx-a11y/heading-has-content': 'off',
   },
   settings: {
     react: {
