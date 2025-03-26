@@ -1,0 +1,9 @@
+documentation:
+  label: Documentation
+  permalink: /documentation
+#  description: Documentation tag description
+
+testing:
+  label: Testing
+  permalink: /testing
+#  description: Testing tag description

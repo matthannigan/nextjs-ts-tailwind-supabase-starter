@@ -39,7 +39,21 @@ const config: Config = {
           editUrl:
             'https://github.com/matthannigan/nextjs-ts-tailwind-supabase-starter/tree/main/docs-website/',
         },
-        blog: false,
+        blog: {
+          showReadingTime: false,
+          feedOptions: {
+            type: ['rss', 'atom'],
+            xslt: true,
+          },
+          // Please change this to your repo.
+          // Remove this to remove the "edit this page" links.
+          editUrl:
+            'https://github.com/matthannigan/nextjs-ts-tailwind-supabase-starter/tree/main/docs-website/',
+          // Useful options to enforce blogging best practices
+          onInlineTags: 'warn',
+          onInlineAuthors: 'warn',
+          onUntruncatedBlogPosts: 'warn',
+        },
         theme: {
           customCss: './src/css/custom.css',
         },
@@ -70,10 +84,9 @@ const config: Config = {
           label: 'React Components',
         },
         {
-          type: 'docSidebar',
-          sidebarId: 'development',
-          position: 'left',
+          to: 'blog',
           label: 'Development Journey',
+          position: 'left',
         },
         {
           href: 'https://github.com/matthannigan/nextjs-ts-tailwind-supabase-starter',
