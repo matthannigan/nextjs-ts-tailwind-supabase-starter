@@ -22,21 +22,21 @@ export default function Container({
     xl: 'max-w-screen-xl',
     full: 'max-w-full',
   };
-  
+
   const paddingStyles = {
     none: 'px-0',
     sm: 'px-4',
     md: 'px-6 md:px-8',
     lg: 'px-8 md:px-12',
   };
-  
+
   const centeredStyles = centered ? 'mx-auto' : '';
-  
+
   const combinedClassName = `w-full ${sizeStyles[size]} ${paddingStyles[padding]} ${centeredStyles} ${className}`;
-  
+
   return (
     <div className={combinedClassName} {...props}>
       {children}
     </div>
   );
-} 
+}

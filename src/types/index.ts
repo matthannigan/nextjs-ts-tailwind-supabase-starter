@@ -18,4 +18,4 @@ export interface Todo {
   completed: boolean;
   created_at: string;
   user_id: string;
-} 
+}
