@@ -37,7 +37,12 @@ export default function Home() {
 
           <Grid cols={1} className="mt-8 md:grid-cols-3" gap="lg">
             {/* Feature Card 1 */}
-            <Flex direction="column" align="center" gap="sm" className="rounded-lg border p-6 shadow-sm">
+            <Flex
+              direction="column"
+              align="center"
+              gap="sm"
+              className="rounded-lg border p-6 shadow-sm"
+            >
               <div className="rounded-full bg-blue-100 p-3">
                 <svg
                   className="h-6 w-6 text-blue-600"
@@ -61,12 +66,22 @@ export default function Home() {
             </Flex>
 
             {/* Feature Card 2 */}
-            <Flex direction="column" align="center" gap="sm" className="rounded-lg border p-6 shadow-sm">
+            <Flex
+              direction="column"
+              align="center"
+              gap="sm"
+              className="rounded-lg border p-6 shadow-sm"
+            >
               {/* ... existing SVG and content for second card ... */}
             </Flex>
 
             {/* Feature Card 3 */}
-            <Flex direction="column" align="center" gap="sm" className="rounded-lg border p-6 shadow-sm">
+            <Flex
+              direction="column"
+              align="center"
+              gap="sm"
+              className="rounded-lg border p-6 shadow-sm"
+            >
               {/* ... existing SVG and content for third card ... */}
             </Flex>
           </Grid>
