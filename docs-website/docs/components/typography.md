@@ -1,3 +1,7 @@
+---
+sidebar_label: Typography
+---
+
 # Typography Components
 
 A collection of type-safe, accessible typography components for consistent text styling across the application, including headings, paragraphs, blockquotes, and code snippets.

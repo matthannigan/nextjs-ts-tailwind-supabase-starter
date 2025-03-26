@@ -1,3 +1,7 @@
+---
+sidebar_position: 1
+---
+
 # Layout System
 
 The Layout system in our Next.js TypeScript Tailwind Supabase starter provides a flexible structure for creating consistent page layouts throughout the application. It consists of a RootLayout component combined with Header and Footer components, plus utility layout components (Flex and Grid) for precise content arrangement.

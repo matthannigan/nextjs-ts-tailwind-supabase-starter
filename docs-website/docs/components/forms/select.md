@@ -1,3 +1,7 @@
+---
+sidebar_label: Select
+---
+
 # Select Component
 
 A dropdown menu component that allows users to select from a list of options. The Select component provides a clean interface for user selection with accessible navigation and visual feedback.

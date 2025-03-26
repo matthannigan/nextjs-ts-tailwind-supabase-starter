@@ -1,3 +1,7 @@
+---
+sidebar_label: Popover
+---
+
 # Popover Component
 
 The Popover component displays rich content in a portal when triggered by a button. It remains open until the user clicks either the trigger button again or anywhere else on the document.

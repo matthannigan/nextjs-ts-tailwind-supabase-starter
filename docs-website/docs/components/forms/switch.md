@@ -1,3 +1,7 @@
+---
+sidebar_label: Switch
+---
+
 # Switch Component
 
 A Switch is an interactive control that allows users to toggle between an enabled and disabled state, providing a visual representation of a binary setting.

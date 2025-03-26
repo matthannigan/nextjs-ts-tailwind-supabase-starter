@@ -1,3 +1,7 @@
+---
+sidebar_label: Dropdown Menu
+---
+
 # DropdownMenu Component
 
 A flexible dropdown menu component that displays a list of options, actions, or functions triggered by a button, with support for nested submenus, checkboxes, radio groups, and keyboard navigation.

@@ -1,3 +1,7 @@
+---
+sidebar_label: Label
+---
+
 # Label Component
 
 The Label component renders an accessible label element that can be associated with form controls, providing proper labeling for improved user experience and accessibility.

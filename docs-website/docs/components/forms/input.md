@@ -1,3 +1,7 @@
+---
+sidebar_label: Input
+---
+
 # Input Component
 
 A versatile form input component that provides a standardized text field for collecting user input with consistent styling and accessibility features.

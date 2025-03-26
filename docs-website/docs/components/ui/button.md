@@ -1,3 +1,7 @@
+---
+sidebar_label: Button
+---
+
 # Button Component
 
 A versatile button component that supports multiple variants, sizes, and icon integration for triggering actions in forms and user interfaces.

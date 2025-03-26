@@ -1,3 +1,7 @@
+---
+sidebar_label: Checkbox
+---
+
 # Checkbox Component
 
 A control component that allows users to toggle between checked and unchecked states, built using Radix UI's Checkbox primitive with appropriate styling and accessibility features.

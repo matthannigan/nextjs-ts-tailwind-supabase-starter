@@ -1,3 +1,7 @@
+---
+sidebar_label: Textarea
+---
+
 # Textarea Component
 
 A customizable textarea input field for multiline text entry with full support for form integration. The component extends the native HTML textarea with consistent styling that matches the design system.

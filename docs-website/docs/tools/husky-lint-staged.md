@@ -1,5 +1,6 @@
 ---
 sidebar_position: 5
+sidebar_label: Husky & lint-staged
 ---
 
 # Husky and lint-staged Configuration and Usage

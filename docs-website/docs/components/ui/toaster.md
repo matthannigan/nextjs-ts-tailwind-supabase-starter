@@ -1,3 +1,7 @@
+---
+sidebar_label: Toaster
+---
+
 # Toaster Component
 
 The Toaster component is a container for displaying toast notifications in your application. It renders all active toast notifications managed by the `useToast` hook and handles their positioning and animation.

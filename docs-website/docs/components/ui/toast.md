@@ -1,3 +1,7 @@
+---
+sidebar_label: Toast
+---
+
 # Toast Component
 
 The Toast component provides a way to display brief, non-disruptive notifications to users that automatically dismiss after a set time. It's designed to be accessible, customizable, and supports various notification types.

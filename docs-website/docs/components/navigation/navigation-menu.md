@@ -1,3 +1,7 @@
+---
+sidebar_label: Navigation Menu
+---
+
 # NavigationMenu Component
 
 A collection of accessible, customizable links for navigating websites with nested content support and smooth animations.

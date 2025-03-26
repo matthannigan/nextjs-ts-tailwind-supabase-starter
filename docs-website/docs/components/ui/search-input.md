@@ -1,3 +1,7 @@
+---
+sidebar_label: Search Input
+---
+
 # SearchInput Component
 
 A compound component that combines an input field with a search icon and an optional search button for performing search operations in a form-like interface.

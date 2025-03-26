@@ -1,3 +1,7 @@
+---
+sidebar_label: Theme Switch
+---
+
 # ThemeSwitch Component
 
 A toggle button component that enables users to switch between light, dark, and system color themes. The component displays sun and moon icons that animate smoothly during transitions.

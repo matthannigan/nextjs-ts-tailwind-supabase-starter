@@ -1,3 +1,7 @@
+---
+sidebar_label: Table
+---
+
 # Table Component
 
 The Table component is a responsive and composable data display system that provides a structured way to present tabular information with support for headers, body, rows, cells, captions, and footers.

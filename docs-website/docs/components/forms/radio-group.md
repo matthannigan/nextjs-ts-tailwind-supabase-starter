@@ -1,3 +1,7 @@
+---
+sidebar_label: Radio Group
+---
+
 # RadioGroup Component
 
 A set of checkable buttons—known as radio buttons—where no more than one of the buttons can be checked at a time. The RadioGroup component provides an accessible way to create a group of mutually exclusive options.

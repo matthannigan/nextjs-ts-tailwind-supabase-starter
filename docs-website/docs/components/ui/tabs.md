@@ -1,3 +1,7 @@
+---
+sidebar_label: Tabs
+---
+
 # Tabs Component
 
 A set of layered sections of content—known as tab panels—that are displayed one at a time, providing an intuitive way to organize and navigate through related content within a limited space.

@@ -1,3 +1,7 @@
+---
+sidebar_label: Content Card
+---
+
 # ContentCard Component
 
 A versatile card component that displays content with optional image, title, description, and footer. It's designed for presenting content previews with consistent styling and optional link functionality.

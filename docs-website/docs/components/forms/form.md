@@ -1,3 +1,7 @@
+---
+sidebar_label: Form
+---
+
 # Form Component
 
 A comprehensive, accessible form handling component that wraps react-hook-form and provides a structured approach to building and validating forms in your application.

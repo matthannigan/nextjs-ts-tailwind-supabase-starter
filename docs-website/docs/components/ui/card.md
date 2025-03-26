@@ -1,3 +1,7 @@
+---
+sidebar_label: Card
+---
+
 # Card Component
 
 A versatile container component that provides a structured layout for displaying related content, with dedicated sections for header, content, and footer.

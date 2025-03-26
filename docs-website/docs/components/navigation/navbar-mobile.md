@@ -1,5 +1,5 @@
 ---
-sidebar_position: 1
+sidebar_label: Navbar Mobile
 ---
 
 # Documentation Creation Task for `Navbar Mobile`

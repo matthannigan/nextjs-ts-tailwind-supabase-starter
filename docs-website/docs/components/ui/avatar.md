@@ -1,3 +1,7 @@
+---
+sidebar_label: Avatar
+---
+
 # Avatar Component
 
 A versatile avatar component that displays a user image with fallback support when the image fails to load or is unavailable.

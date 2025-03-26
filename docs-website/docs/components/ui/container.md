@@ -1,3 +1,7 @@
+---
+sidebar_label: Container
+---
+
 # Container Component
 
 The Container component provides a responsive wrapper with consistent padding and width constraints for your content.

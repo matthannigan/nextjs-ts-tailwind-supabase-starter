@@ -1,21 +1,20 @@
 ---
 sidebar_position: 1
+sidebar_label: Blueprint
 ---
 
-# Overview of Phase 1
+# Development Blueprint
 
-Phase 1 focuses on establishing the technical foundation and implementing basic authentication for the starter template application. By the end of this phase, we should have:
+Initial work focuses on establishing the technical foundation and implementing basic authentication for the starter template application. By the end of this phase, we should have:
 
 1. A working Next.js 14 project with TypeScript 5.2+ and TailwindCSS 3.3+
 2. Supabase 2.x integration for authentication and database
 3. Basic user management (registration, login, anonymous sessions)
 4. Core database schema implementation
 
-nextjs-ts-tailwind-supabase-starter
+## Decomposition into Manageable Chunks
 
-# Decomposition into Manageable Chunks
-
-## Chunk 1: Project Setup
+### Chunk 1: Project Setup
 
 - Initialize Next.js 14 project with TypeScript 5.2+
 - Configure TailwindCSS 3.3+
@@ -23,7 +22,7 @@ nextjs-ts-tailwind-supabase-starter
 - Create basic project structure
 - Implement basic layout components
 
-## Chunk 2: Supabase Integration
+### Chunk 2: Supabase Integration
 
 - Set up Supabase 2.x project
 - Configure environment variables
@@ -31,7 +30,7 @@ nextjs-ts-tailwind-supabase-starter
 - Implement authentication context
 - Create database schema for core entities
 
-## Chunk 3: User Authentication
+### Chunk 3: User Authentication
 
 - Implement registration flow
 - Implement login flow
@@ -39,14 +38,14 @@ nextjs-ts-tailwind-supabase-starter
 - Build user profile management
 - Implement session persistence with Supabase Auth
 
-## Chunk 4: Core API Routes
+### Chunk 4: Core API Routes
 
 - Implement authentication API routes
 - Create testing infrastructure for API routes using Jest 29.x
 
-# Detailed Implementation Steps
+## Detailed Implementation Steps
 
-## Chunk 1: Project Setup
+### Chunk 1: Project Setup
 
 1. Initialize Next.js 14 project with TypeScript 5.2+ configuration
 2. Install and configure TailwindCSS 3.3+
@@ -56,7 +55,7 @@ nextjs-ts-tailwind-supabase-starter
 6. Create placeholder pages for main app routes
 7. Set up testing infrastructure with Jest 29.x and React Testing Library 14.x
 
-## Chunk 2: Supabase Integration
+### Chunk 2: Supabase Integration
 
 1. Create Supabase 2.x project and configure settings
 2. Set up environment variables for Supabase connection
@@ -66,7 +65,7 @@ nextjs-ts-tailwind-supabase-starter
 6. Set up Row Level Security policies
 7. Create database helper functions
 
-## Chunk 3: User Authentication
+### Chunk 3: User Authentication
 
 1. Create authentication context provider using Supabase Auth
 2. Implement email/password registration
@@ -77,15 +76,15 @@ nextjs-ts-tailwind-supabase-starter
 7. Create authentication hooks for components
 8. Implement protected routes
 
-## Chunk 4: Core API Routes
+### Chunk 4: Core API Routes
 
 1. Create authentication API routes (register, login, anonymous)
 2. Create testing helpers for API routes with Jest 29.x
 3. Build middleware for authentication and authorization
 
-# Refined Implementation Tasks (Smallest Units of Work)
+## Refined Implementation Tasks (Smallest Units of Work)
 
-## Chunk 1: Project Setup
+### Chunk 1: Project Setup
 
 1. **Initialize Next.js Project**
     - Create Next.js 14 project with TypeScript 5.2+
@@ -115,7 +114,7 @@ nextjs-ts-tailwind-supabase-starter
     - Create test helpers
     - Write example test for Layout component
 
-## Chunk 2: Supabase Integration
+### Chunk 2: Supabase Integration
 
 1. **Set Up Supabase Project**
     - Create Supabase project (v2.x)
@@ -139,7 +138,7 @@ nextjs-ts-tailwind-supabase-starter
     - Create helper functions with Supabase 2.x Query Builder
     - Write tests for database functions
 
-## Chunk 3: User Authentication
+### Chunk 3: User Authentication
 
 1. **Create Authentication Context**
     - Build AuthContext with React 18.x Context API
@@ -171,7 +170,7 @@ nextjs-ts-tailwind-supabase-starter
     - Implement redirect logic
     - Test protected routes
 
-## Chunk 4: Core API Routes
+### Chunk 4: Core API Routes
 
 1. **Create Authentication API Routes**
     - Implement register endpoint with Next.js 14 API routes

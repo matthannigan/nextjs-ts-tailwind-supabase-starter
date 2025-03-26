@@ -1,3 +1,7 @@
+---
+sidebar_label: Calendar
+---
+
 # Calendar Component
 
 A customizable date field component that allows users to select and manipulate dates through an interactive calendar interface.

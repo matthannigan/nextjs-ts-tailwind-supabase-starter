@@ -1,3 +1,7 @@
+---
+sidebar_label: Alert
+---
+
 # Alert Component
 
 A versatile notification component used to display important information, warnings, or error messages with customizable styles and content structure.

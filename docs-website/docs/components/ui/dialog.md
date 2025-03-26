@@ -1,3 +1,7 @@
+---
+sidebar_label: Dialog
+---
+
 # Dialog Component
 
 A modal overlay component that displays content on top of the main application window, rendering the underlying content inert until the dialog is dismissed.
