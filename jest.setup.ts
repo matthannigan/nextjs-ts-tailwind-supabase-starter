@@ -37,6 +37,14 @@ jest.mock('next/image', () => ({
 // Set up global fetch mock if needed
 global.fetch = jest.fn() as jest.Mock;
 
+// Mock ResizeObserver
+class ResizeObserverMock {
+  observe() {}
+  unobserve() {}
+  disconnect() {}
+}
+global.ResizeObserver = ResizeObserverMock;
+
 // Reset mocks before each test
 beforeEach(() => {
   jest.clearAllMocks();

@@ -47,3 +47,6 @@ node_modules/
 
 # Old/backup files
 *.old
+
+# Reporting
+test-report.html

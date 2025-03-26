@@ -7,6 +7,27 @@ const createJestConfig = nextJest({
 
 // Add any custom config to be passed to Jest
 const customJestConfig = {
+  reporters: [
+    'default',
+    [
+      'jest-html-reporters',
+      {
+        publicPath: '.',
+        filename: 'test-report.html',
+        failureMessageOnly: 0,
+        expand: false,
+        openReport: true,
+        enableMergeData: false,
+        inlineSource: true,
+        hideIcon: false,
+        testCommand: 'npm test',
+        customInfos: [
+          { title: 'Project', value: 'Next.js Starter Template' },
+          { title: 'Environment', value: 'Test' },
+        ],
+      },
+    ],
+  ],
   setupFilesAfterEnv: ['<rootDir>/jest.setup.ts'],
   testEnvironment: 'jest-environment-jsdom',
   moduleNameMapper: {
