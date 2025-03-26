@@ -113,7 +113,7 @@ describe('ContentCard', () => {
       />
     );
 
-    imageContainer = screen.getByText('Test image').closest('.aspect-[3/4]');
+    imageContainer = screen.getByText('Test image').closest('.aspect-\\[3\\/4\\]');
     expect(imageContainer).toBeInTheDocument();
   });
 
