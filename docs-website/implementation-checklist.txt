@@ -1,0 +1,75 @@
+# Docusaurus Implementation Checklist
+
+## 1. Configuration Updates
+
+- [X] Update `docusaurus.config.ts` with the configuration from the `docusaurus-config` artifact
+- [X] Update `sidebars.ts` with the configuration from the `updated-sidebar` artifact
+
+## 2. Documentation Content
+
+- [ ] Add the following documentation files to the appropriate directories:
+  - [X] `docs/intro.md` (updated version)
+  - [X] `docs/structure.md` (new file)
+  - [X] `docs/features/authentication.md` (new file)
+  - [X] `docs/features/database.md` (new file)
+  - [X] `docs/development/testing.md` (new file)
+  - [X] `docs/development/deployment.md` (new file)
+  - [X] `docs/development/contributing.md` (new file)
+  - [X] `docs/version-reference.md` (new file)
+
+## 3. GitHub Pages Setup
+
+- [X] Create `.github/workflows` directory in the docs-website folder
+- [X] Add the `deploy.yml` workflow file from the `github-workflow-yml` artifact
+- [ ] Configure GitHub repository settings:
+  - [ ] Go to Settings > Pages
+  - [ ] Set Source to "Deploy from a branch"
+  - [ ] Set Branch to "gh-pages" and folder to "/ (root)"
+  - [ ] Save changes
+
+## 4. Local Testing
+
+- [ ] Run the following commands to test locally:
+  ```bash
+  cd docs-website
+  npm start
+  ```
+- [ ] Verify all documentation pages are accessible
+- [ ] Check all internal links between pages
+- [ ] Test navigation using the sidebar
+
+## 5. Deployment
+
+- [ ] Commit all changes to your repository
+- [ ] Push changes to GitHub
+- [ ] Monitor the GitHub Actions workflow
+- [ ] Verify the deployment at `https://matthannigan.github.io/nextjs-ts-tailwind-supabase-starter/`
+
+## 6. Final Touches
+
+- [ ] Add a link to your documentation in your main project README.md
+- [ ] Consider adding a custom domain if needed
+- [ ] Set up Google Analytics (optional)
+- [ ] Add search functionality (optional)
+
+## Command Reference
+
+```bash
+# Create directories for new documentation files
+mkdir -p docs-website/docs/features
+mkdir -p docs-website/docs/development
+mkdir -p docs-website/.github/workflows
+
+# Apply configuration updates
+# (Copy the contents from the artifacts)
+
+# Test locally
+cd docs-website
+npm start
+
+# Build static site
+npm run build
+
+# Deploy manually (if not using GitHub Actions)
+npm run deploy
+```
