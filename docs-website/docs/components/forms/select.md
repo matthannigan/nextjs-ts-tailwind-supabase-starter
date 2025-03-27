@@ -427,7 +427,7 @@ describe('Select', () => {
 
 ## Related Components
 
-- [Dropdown Menu](./dropdown-menu.md): Similar to Select but for actions rather than selections
-- [Combobox](./combobox.md): Combines a text input with a dropdown for searching and selecting from a list
+- [Dropdown Menu](../ui/dropdown-menu.md): Similar to Select but for actions rather than selections
+- **Combobox**: Combines a text input with a dropdown for searching and selecting from a list
 - [Input](./input.md): Used in forms alongside the Select component
 - [Form](./form.md): Container component for building forms that include Select fields

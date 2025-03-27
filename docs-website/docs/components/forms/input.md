@@ -459,8 +459,8 @@ describe('Input', () => {
 ## Related Components
 
 - [Form](./form.md): Container component for form elements including Input
-- [Button](./button.md): Often used alongside Input for form submissions
+- [Button](../ui/button.md): Often used alongside Input for form submissions
 - [Select](./select.md): For selecting from predefined options instead of free text input
 - [Textarea](./textarea.md): For multi-line text input
 - [Checkbox](./checkbox.md): For boolean/multiple choice inputs
-- [SearchInput](./search-input.md): Specialized input for search functionality
+- [SearchInput](../ui/search-input.md): Specialized input for search functionality

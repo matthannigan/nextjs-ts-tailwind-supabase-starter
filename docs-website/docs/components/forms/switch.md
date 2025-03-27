@@ -321,6 +321,6 @@ describe('Switch', () => {
 ## Related Components
 
 - [Checkbox](./checkbox.md): Another form control for boolean values, but using a checkbox visual metaphor
-- [ToggleGroup](./toggle-group.md): A set of two-state buttons that can be toggled on or off
-- [ThemeSwitch](./theme-switch.md): A specialized component that uses the Button component to toggle between light and dark themes
+- **ToggleGroup**: A set of two-state buttons that can be toggled on or off
+- [Theme Switch](../ui/theme-switch.md): A specialized component that uses the Button component to toggle between light and dark themes
 - [Form](./form.md): Used to create accessible forms that can include Switch components

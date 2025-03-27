@@ -404,10 +404,10 @@ describe('RadioGroup', () => {
 
 ## Related Components
 
-- [Form](../ui/form.md): Used together with RadioGroup for form validation and submission
-- [Label](../ui/label.md): Used to create accessible labels for RadioGroupItems
-- [Checkbox](../ui/checkbox.md): Used for multiple selection where users can select multiple options
-- [Select](../ui/select.md): Used for selecting a single option from a dropdown menu
+- [Form](./form.md): Used together with RadioGroup for form validation and submission
+- [Label](./label.md): Used to create accessible labels for RadioGroupItems
+- [Checkbox](./checkbox.md): Used for multiple selection where users can select multiple options
+- [Select](./select.md): Used for selecting a single option from a dropdown menu
 
 ## Installation
 
