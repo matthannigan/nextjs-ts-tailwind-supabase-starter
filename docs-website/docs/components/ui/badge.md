@@ -1,5 +1,5 @@
 ---
-sidebar_label: Badge Component
+sidebar_label: Badge
 ---
 
 # Badge Component
