@@ -102,7 +102,8 @@ const sidebars: SidebarsConfig = {
         },
       ],
     },
-    'components/typography',
+    'style/typography',
+    'style/theme-switch',
   ],
 };
 
