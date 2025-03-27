@@ -383,5 +383,5 @@ describe('Flex', () => {
 
 - [Header](./header.md): The top navigation bar used in the RootLayout
 - [Footer](./footer.md): The footer component used in the RootLayout
-- [Card](./card.md): Often used within Flex or Grid to display content blocks
-- [Container](./container.md): Can be used with Flex or Grid for additional padding/margin constraints
+- [Card](../ui/card.md): Often used within Flex or Grid to display content blocks
+- [Container](../ui/container.md): Can be used with Flex or Grid for additional padding/margin constraints
