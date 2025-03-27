@@ -495,5 +495,5 @@ describe('NavigationMenu', () => {
 
 ## Related Components
 
-- [DropdownMenu](./dropdown-menu.md): Similar in functionality but designed for application commands rather than navigation links
-- [Tabs](./tabs.md): Another way to organize content into sections, but with a different interaction model
+- [DropdownMenu](../ui/dropdown-menu.md): Similar in functionality but designed for application commands rather than navigation links
+- [Tabs](../ui/tabs.md): Another way to organize content into sections, but with a different interaction model
