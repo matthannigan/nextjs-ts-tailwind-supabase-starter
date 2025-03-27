@@ -1,11 +1,12 @@
 ---
-sidebar_position: 3
+sidebar_label: To Do Checklist
 ---
 
-Starter Template Phase 1 Todo Checklist
-# Chunk 1: Project Setup
+# Starter Template To Do Checklist
 
-## 1.1 Initialize Next.js Project
+## Chunk 1: Project Setup
+
+### 1.1 Initialize Next.js Project
 - [x] Create Next.js 14 project with TypeScript 5.2+
 - [x] Initialize Git repository
 - [x] Create initial commit
@@ -13,7 +14,7 @@ Starter Template Phase 1 Todo Checklist
 - [x] Configure tsconfig.json for proper TypeScript 5.2+ settings
 - [x] Create package.json scripts for development, build, and start
 
-## 1.2 Configure Styling and Linting
+### 1.2 Configure Styling and Linting
 - [x] Install TailwindCSS 3.3+ and dependencies
 - [x] Configure tailwind.config.js
 - [x] Set up postcss.config.js
@@ -25,7 +26,7 @@ Starter Template Phase 1 Todo Checklist
 - [x] Add lint and format scripts to package.json
 - [x] Create pre-commit hooks for linting and formatting
 
-## 1.3 Set Up Project Structure
+### 1.3 Set Up Project Structure
 - [x] Create components/ directory
 - [x] Create app/ directory (for Next.js 14 App Router)
 - [x] Create lib/ directory for utility functions
@@ -38,7 +39,7 @@ Starter Template Phase 1 Todo Checklist
 - [x] Create README.md with project overview and setup instructions
 - [ ] Create .env.example file
 
-## 1.4 Implement Basic Layout Components
+### 1.4 Implement Basic Layout Components
 - [x] Create app/layout.tsx component
 - [x] Implement components/layout/header.tsx
 - [x] Create components/layout/footer.tsx
@@ -49,7 +50,7 @@ Starter Template Phase 1 Todo Checklist
 - [x] Implement components/ui/input.tsx
 - [x] Create a responsive container component
 
-## 1.5 Configure Testing Infrastructure
+### 1.5 Configure Testing Infrastructure
 - [x] Install Jest 29.x and related dependencies
 - [x] Install React Testing Library 14.x and dependencies
 - [x] Configure jest.config.js
@@ -61,9 +62,9 @@ Starter Template Phase 1 Todo Checklist
 - [x] Write example test for a utility function
 - [x] Add testing scripts to package.json
 
-# Chunk 2: Supabase Integration
+## Chunk 2: Supabase Integration
 
-## 2.1 Set Up Supabase Project
+### 2.1 Set Up Supabase Project
 - [ ] Create Supabase 2.x project in Supabase dashboard
 - [ ] Configure authentication providers in Supabase
 - [ ] Set up email templates for authentication
@@ -75,7 +76,7 @@ Starter Template Phase 1 Todo Checklist
 - [ ] Create lib/supabase.ts client utility
 - [ ] Set up type definitions for Supabase
 
-## 2.2 Define Core TypeScript Interfaces
+### 2.2 Define Core TypeScript Interfaces
 - [ ] Create types/database.types.ts
 - [ ] Define User interface with TypeScript 5.2+
 - [ ] Create additional supporting interfaces
@@ -85,7 +86,7 @@ Starter Template Phase 1 Todo Checklist
 - [ ] Create serialization helpers for database entities
 - [ ] Set up Zod 3.x schemas for validation
 
-## 2.3 Implement Users Table Schema
+### 2.3 Implement Users Table Schema
 - [ ] Create SQL script for users table in Supabase
 - [ ] Set up RLS policies for users table
 - [ ] Create SQL triggers for user data
@@ -97,7 +98,7 @@ Starter Template Phase 1 Todo Checklist
 - [ ] Implement updateUser function
 - [ ] Create tests for user database functions
 
-## 2.4 Create Database Helper Functions
+### 2.4 Create Database Helper Functions
 - [ ] Implement lib/db/index.ts for common operations with Supabase 2.x
 - [ ] Create transaction helper functions
 - [ ] Implement error handling for database operations
@@ -107,9 +108,9 @@ Starter Template Phase 1 Todo Checklist
 - [ ] Write tests for database helper functions
 - [ ] Document database functions with JSDoc
 
-# Chunk 3: User Authentication
+## Chunk 3: User Authentication
 
-## 3.1 Create Authentication Context
+### 3.1 Create Authentication Context
 - [ ] Create contexts/auth-context.tsx with React 18.x Context API
 - [ ] Implement authentication state interface
 - [ ] Create useAuth hook
@@ -121,7 +122,7 @@ Starter Template Phase 1 Todo Checklist
 - [ ] Write tests for AuthContext with Jest 29.x
 - [ ] Document authentication context usage
 
-## 3.2 Implement Registration Flow
+### 3.2 Implement Registration Flow
 - [ ] Create components/auth/register-form.tsx
 - [ ] Implement form state management with React 18.x
 - [ ] Create input validation with Zod 3.x
@@ -133,7 +134,7 @@ Starter Template Phase 1 Todo Checklist
 - [ ] Write tests for registration form with React Testing Library 14.x
 - [ ] Document registration workflow
 
-## 3.3 Build Login Functionality
+### 3.3 Build Login Functionality
 - [ ] Create components/auth/login-form.tsx
 - [ ] Implement form state management
 - [ ] Create input validation with Zod 3.x
@@ -145,7 +146,7 @@ Starter Template Phase 1 Todo Checklist
 - [ ] Write tests for login form with React Testing Library 14.x
 - [ ] Document login workflow
 
-## 3.4 Create Anonymous Session Handling
+### 3.4 Create Anonymous Session Handling
 - [ ] Create components/auth/anonymous-login-form.tsx
 - [ ] Implement anonymous session creation in AuthContext with Supabase Auth
 - [ ] Create session persistence for anonymous sessions
@@ -156,7 +157,7 @@ Starter Template Phase 1 Todo Checklist
 - [ ] Write tests for anonymous sessions
 - [ ] Document anonymous session workflow
 
-## 3.5 Implement Protected Routes
+### 3.5 Implement Protected Routes
 - [ ] Create middleware for Next.js 14 App Router
 - [ ] Implement authentication checks
 - [ ] Create redirect logic for unauthenticated users
@@ -168,9 +169,9 @@ Starter Template Phase 1 Todo Checklist
 - [ ] Write tests for protected routes with Jest 29.x
 - [ ] Document protection usage
 
-# Chunk 4: Core API Routes
+## Chunk 4: Core API Routes
 
-## 4.1 Create Authentication API Routes
+### 4.1 Create Authentication API Routes
 - [ ] Implement app/api/auth/register/route.ts (Next.js 14 Route Handler)
 - [ ] Create app/api/auth/login/route.ts
 - [ ] Implement app/api/auth/anonymous/route.ts
@@ -182,7 +183,7 @@ Starter Template Phase 1 Todo Checklist
 - [ ] Create logging for authentication attempts
 - [ ] Write tests for authentication API routes with Jest 29.x
 
-## 4.2 Implement API Testing Infrastructure
+### 4.2 Implement API Testing Infrastructure
 - [ ] Create tests/utils/api.ts with test helpers
 - [ ] Implement mock Supabase client for testing
 - [ ] Create request and response mocks
@@ -193,9 +194,9 @@ Starter Template Phase 1 Todo Checklist
 - [ ] Create documentation for API testing
 - [ ] Set up CI workflow for API tests
 
-# Final Integration Tasks
+## Final Integration Tasks
 
-## FI.1 Integration Testing
+### FI.1 Integration Testing
 - [ ] Create comprehensive test plans
 - [ ] Implement end-to-end tests for user flows with Playwright 1.40+
 - [ ] Test authentication flow from registration to logout
@@ -206,7 +207,7 @@ Starter Template Phase 1 Todo Checklist
 - [ ] Verify accessibility compliance
 - [ ] Document test results and fix issues
 
-## FI.2 Documentation
+### FI.2 Documentation
 - [ ] Update README.md with comprehensive information
 - [ ] Create API documentation
 - [ ] Document database schema for Supabase
@@ -218,7 +219,7 @@ Starter Template Phase 1 Todo Checklist
 - [ ] Document known issues and workarounds
 - [ ] Prepare handoff documentation for next phase
 
-## FI.3 Deployment Preparation
+### FI.3 Deployment Preparation
 - [ ] Configure production environment variables for Next.js 14
 - [ ] Set up staging environment
 - [ ] Create deployment scripts

@@ -1,3 +1,7 @@
+---
+sidebar_label: React Components
+---
+
 # [Component Name] Component
 
 [Brief 1-2 sentence description of what the component does and its primary purpose]

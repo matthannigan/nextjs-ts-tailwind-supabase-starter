@@ -1,4 +1,9 @@
-# Prompts for AI Documentation Assistance
+---
+sidebar_position: 2
+sidebar_label: Documentation
+---
+
+# Documentation Prompts
 
 ## Components
 
@@ -51,6 +56,7 @@ I need to create comprehensive documentation for the `[ComponentName]` component
 ## Deliverable
 A comprehensive markdown document that follows our template structure and provides detailed, accurate guidance for developers in our specific project context.
 ```
+
 ## Compound Components
 
 ```

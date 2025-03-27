@@ -1,8 +1,11 @@
 ---
-sidebar_position: 2
+sidebar_position: 1
+sidebar_label: Setup
 ---
 
-# Prompt 1: Project Initialization
+# Setup Prompts
+
+## Prompt 1: Project Initialization
 
 ```
 You are an expert software developer tasked with building the foundation of a starter template for a contemporary web-based application. 
@@ -27,7 +30,7 @@ Please provide:
 Ensure the implementation follows best practices for Next.js 14 applications and TypeScript 5.2+, taking advantage of React 18 features where appropriate.
 ```
 
-# Prompt 2: Set Up Testing Infrastructure
+## Prompt 2: Set Up Testing Infrastructure
 
 ```
 You've successfully initialized the starter template with Next.js 14, TypeScript 5.2+, and TailwindCSS 3.3+. Now, you need to set up a robust testing infrastructure.
@@ -54,7 +57,7 @@ Make sure the testing setup follows best practices for Next.js 14 applications a
 Also refer to the tasks listed in 1.5 Configure Testing Infrastructure in ./to-do.md. As tasks are completed mark them with [x].
 ```
 
-# Prompt 3: Supabase Setup and Configuration
+## Prompt 3: Supabase Setup and Configuration
 
 ```
 Now that you have the starter template application set up with Next.js 14, TypeScript 5.2+, TailwindCSS 3.3+, and testing infrastructure, it's time to integrate Supabase 2.x for authentication and database functionality.
@@ -81,7 +84,7 @@ Please provide:
 Make sure to follow best practices for managing environment variables in Next.js 14 and creating reusable React 18 contexts.
 ```
 
-# Prompt 4: Database Schema Implementation
+## Prompt 4: Database Schema Implementation
 
 ```
 Now that you have set up Supabase 2.x integration for the starter template application, you need to implement the database schema for the core entities.
@@ -106,7 +109,7 @@ Please provide:
 Ensure the schema follows the specifications from the project requirements and implements proper security practices with RLS in Supabase.
 ```
 
-# Prompt 5: Authentication Context Implementation
+## Prompt 5: Authentication Context Implementation
 
 ```
 With the Supabase 2.x integration and database schema in place for the starter template application, you now need to implement a comprehensive authentication context to manage user sessions.
@@ -133,7 +136,7 @@ Please provide:
 Ensure the implementation handles both registered users and anonymous sessions, with appropriate error handling and loading states using Supabase Auth 2.x features.
 ```
 
-# Prompt 6: Authentication Forms Implementation
+## Prompt 6: Authentication Forms Implementation
 
 ```
 Now that you have the authentication context set up with Supabase Auth for the starter template application, you need to create the user-facing authentication forms.
@@ -162,7 +165,7 @@ Please provide:
 Ensure the forms provide a good user experience with appropriate validation, error messages, and loading indicators. Make sure they integrate with the Supabase Auth context you've already built.
 ```
 
-# Prompt 7: Protected Routes Implementation
+## Prompt 7: Protected Routes Implementation
 
 ```
 With authentication forms and context in place for the starter template application, you now need to implement protected routes to ensure that certain pages are only accessible to authenticated users.
@@ -188,7 +191,7 @@ Please provide:
 Ensure the implementation correctly integrates with the Next.js 14 App Router and your Supabase Auth context, providing a seamless experience for users.
 ```
 
-# Prompt 8: Integration and Final Testing
+## Prompt 8: Integration and Final Testing
 
 ```
 You've successfully implemented all the components and functionality for Phase 1 of the starter template application. Now it's time to integrate everything and perform final testing.
@@ -214,7 +217,7 @@ Please provide:
 Ensure all parts of the application work together correctly and provide a seamless experience for users. Document any issues found and their resolutions.
 ```
 
-# Prompt 9: Documentation and Developer Onboarding
+## Prompt 9: Documentation and Developer Onboarding
 
 ```
 Now that Phase 1 of the starter template application is complete and tested, you need to create documentation for the project and prepare for developer onboarding.

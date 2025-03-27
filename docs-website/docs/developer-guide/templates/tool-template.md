@@ -1,3 +1,7 @@
+---
+sidebar_label: Dev Tools
+---
+
 # [Tool Name] Configuration and Usage
 
 [Brief 1-2 sentence description of what the tool is and its primary purpose]. This document covers how [Tool Name] is configured and used in this project.
