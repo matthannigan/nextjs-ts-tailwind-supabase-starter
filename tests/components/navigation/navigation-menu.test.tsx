@@ -7,7 +7,7 @@ import {
   NavigationMenuTrigger,
   NavigationMenuContent,
   NavigationMenuLink,
-} from '@/components/ui/navigation-menu';
+} from '@/components/navigation/navigation-menu';
 
 describe('NavigationMenu', () => {
   it('renders correctly', () => {

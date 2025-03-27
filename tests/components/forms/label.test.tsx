@@ -1,5 +1,5 @@
 import { render, screen } from '../../utils/test-utils';
-import { Label } from '../../../src/components/ui/label';
+import { Label } from '../../../src/components/forms/label';
 
 describe('Label', () => {
   it('renders correctly with children', () => {

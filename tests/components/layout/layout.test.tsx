@@ -1,5 +1,5 @@
 import { render, screen } from '../../utils/test-utils';
-import { Flex, Grid } from '../../../src/components/ui/layout';
+import { Flex, Grid } from '../../../src/components/layout/layout';
 
 describe('Layout Components', () => {
   describe('Flex', () => {
