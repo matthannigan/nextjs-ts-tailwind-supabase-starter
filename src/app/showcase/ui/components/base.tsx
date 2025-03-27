@@ -23,7 +23,7 @@ import {
   DropdownMenuItem,
   DropdownMenuTrigger,
   DropdownMenuSeparator,
-} from '@/components/ui';
+} from '@/components';
 
 // Import components with casing issues directly
 import Container from '@/components/ui/container';
@@ -37,7 +37,7 @@ import {
   TableRow,
 } from '@/components/ui/table';
 
-import { Heading, Text } from '@/components/ui/typography';
+import { Heading, Text } from '@/components/style/typography';
 
 export default function BaseComponentsTab() {
   return (

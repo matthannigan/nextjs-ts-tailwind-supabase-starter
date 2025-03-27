@@ -1,8 +1,8 @@
 'use client';
 
-import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui';
+import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components';
 
-import { Heading, Text, Lead, Blockquote, InlineCode } from '@/components/ui/typography';
+import { Heading, Text, Lead, Blockquote, InlineCode } from '@/components/style/typography';
 
 export default function TypographyComponentsTab() {
   return (

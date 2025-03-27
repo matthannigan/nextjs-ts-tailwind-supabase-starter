@@ -29,9 +29,9 @@ import {
   FormItem,
   FormLabel,
   FormMessage,
-} from '@/components/ui';
+} from '@/components';
 
-import { Heading } from '@/components/ui/typography';
+import { Heading } from '@/components/style/typography';
 
 // Define the props type
 interface FormComponentsTabProps {

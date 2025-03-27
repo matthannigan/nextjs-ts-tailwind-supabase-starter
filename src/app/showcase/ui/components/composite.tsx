@@ -4,7 +4,7 @@
 
 import { Moon, Sun } from 'lucide-react';
 
-import { Button, Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui';
+import { Button, Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components';
 
 import {
   ContentCard,
@@ -16,9 +16,9 @@ import {
   NavigationMenuLink,
   NavigationMenuList,
   NavigationMenuTrigger,
-} from '@/components/ui';
+} from '@/components';
 
-import { Heading, Text } from '@/components/ui/typography';
+import { Heading, Text } from '@/components/style/typography';
 
 export default function CompositeComponentsTab() {
   return (

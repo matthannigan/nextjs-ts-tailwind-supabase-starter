@@ -5,9 +5,9 @@ import { zodResolver } from '@hookform/resolvers/zod';
 import { useForm } from 'react-hook-form';
 import * as z from 'zod';
 
-import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui';
+import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components';
 
-import { Heading, Lead } from '@/components/ui/typography';
+import { Heading, Lead } from '@/components/style/typography';
 
 // Import tab content components
 import BaseComponentsTab from './components/base';

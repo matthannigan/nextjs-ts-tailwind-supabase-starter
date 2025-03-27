@@ -1,4 +1,4 @@
-import { Heading, Lead } from '@/components/ui/typography';
+import { Heading, Lead } from '@/components/style/typography';
 
 export default function MobileShowcase() {
   return (
