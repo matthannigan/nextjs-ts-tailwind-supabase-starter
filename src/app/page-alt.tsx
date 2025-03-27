@@ -1,6 +1,6 @@
 import Link from 'next/link';
 import { Button } from '@/components/ui/button';
-import { Flex, Grid } from '@/components/ui/layout';
+import { Flex, Grid } from '@/components/layout/layout';
 
 export default function Home() {
   return (
