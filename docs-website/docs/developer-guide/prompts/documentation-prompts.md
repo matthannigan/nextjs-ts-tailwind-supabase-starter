@@ -28,7 +28,7 @@ I need to create comprehensive documentation for the `[ComponentName]` component
    - Check existing imports in other components to see real usage examples
 
 ## Documentation Creation
-1. Use the filesystem MCP server to copy our template at `/Users/matth/Github/MGH/nextjs-ts-tailwind-supabase-starter/docs/components/component-documentation-template.md` as your base structure.
+1. Use the filesystem MCP server to copy our template at `/Users/matth/Github/MGH/nextjs-ts-tailwind-supabase-starter/docs-website/docs/developer-guide/templates/component-template.md` as your base structure.
 
 2. Complete each section of the template with specific information:
    - Write a clear, concise component description (1-2 sentences)
@@ -80,7 +80,7 @@ I need to create comprehensive documentation for the `SearchInput` component tha
    - Known limitations
 
 ## Documentation Creation
-1. Use the filesystem MCP server to copy our template at `/Users/matth/Github/MGH/nextjs-ts-tailwind-supabase-starter/docs/components/component-documentation-template.md` as your base structure.
+1. Use the filesystem MCP server to copy our template at `/Users/matth/Github/MGH/nextjs-ts-tailwind-supabase-starter/docs-website/docs/developer-guide/templates/component-template.md` as your base structure.
 
 2. Complete each section of the template with specific information:
    - Write a clear, concise component description (1-2 sentences)
@@ -109,7 +109,7 @@ I need to create comprehensive documentation for the `SearchInput` component tha
 A comprehensive markdown document that follows our template structure and provides detailed, accurate guidance for developers in our specific project context.
 ```
 
-## Testing
+## Tools
 
 ```
 # Documentation Creation Task for [Tool Name]
@@ -120,9 +120,9 @@ I need to create comprehensive documentation for [Tool Name] that follows our pr
 ## Steps
 1. First, review the official documentation at [URL to README.md or official docs] to understand the tool's purpose, features, configuration options, and best practices.
 
-2. Examine our existing template at `/Users/matth/Github/MGH/nextjs-ts-tailwind-supabase-starter/docs/testing/tool-documentation-template.md` to understand the required structure.
+2. Examine our existing template at `/Users/matth/Github/MGH/nextjs-ts-tailwind-supabase-starter/docs-website/docs/developer-guide/templates/tool-template.md` to understand the required structure.
 
-3. Create a new markdown file called `[tool-name].md` in the `/Users/matth/Github/MGH/nextjs-ts-tailwind-supabase-starter/docs/testing/` directory that follows our template format.
+3. Create a new markdown file called `[tool-name].md` in the `/Users/matth/Github/MGH/nextjs-ts-tailwind-supabase-starter/docs-website/docs/developer-guide/tools` directory that follows our template format.
 
 4. When filling in the template:
    - Replace all placeholders in [brackets] with accurate, tool-specific information
