@@ -6,7 +6,7 @@ import Link from 'next/link';
 import { ChevronRight } from 'lucide-react';
 import { Card, CardContent, CardFooter, CardHeader } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
-import { Heading } from '@/components/ui/typography';
+import { Heading } from '@/components/style/typography';
 import { cn } from '@/lib/utils';
 import { aspectRatio, truncateText } from '@/lib/ui-utils';
 

@@ -3,7 +3,7 @@
 import { useState, useRef, FormEvent, HTMLAttributes } from 'react';
 import { Search } from 'lucide-react';
 import { Button } from '@/components/ui/button';
-import { Input } from '@/components/ui/input';
+import { Input } from '@/components/forms/input';
 import { cn } from '@/lib/utils';
 
 interface SearchInputProps extends HTMLAttributes<HTMLFormElement> {
