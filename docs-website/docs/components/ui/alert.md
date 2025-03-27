@@ -450,6 +450,6 @@ describe('Alert', () => {
 ## Related Components
 
 - [Toast](./toast.md): For temporary notifications that appear and disappear automatically
-- [AlertDialog](./alert-dialog.md): For confirmation dialogs that interrupt the user
+- **AlertDialog**: For confirmation dialogs that interrupt the user
 - [Card](./card.md): For containing related information, can be used with Alert for status updates
-- [Banner](./banner.md): For site-wide messaging positioned at the top or bottom of the screen
+- **Banner**: For site-wide messaging positioned at the top or bottom of the screen
