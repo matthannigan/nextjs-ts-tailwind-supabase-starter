@@ -247,6 +247,5 @@ describe('ThemeSwitch', () => {
 
 ## Related Components
 
-- [Button](./button.md): The base component that ThemeSwitch extends
-- [ThemeProvider](../contexts/theme-provider.md): The context provider required for ThemeSwitch to function
-- [Dropdown](./dropdown.md): Often used alongside ThemeSwitch in navigation components
+- [Button](../ui/button.md): The base component that ThemeSwitch extends
+- [Dropdown Menu](../ui/dropdown-menu.md): Often used alongside ThemeSwitch in navigation components

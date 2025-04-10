@@ -503,5 +503,5 @@ describe('Tabs', () => {
 ## Related Components
 
 - [Card](./card.md): Often used to contain tab components for a more structured UI
-- [Form](./form.md): Can be integrated with tabs for multi-step forms
+- [Form](../forms/form.md): Can be integrated with tabs for multi-step forms
 - [Dialog](./dialog.md): Can contain tabs for organizing content in modal dialogs

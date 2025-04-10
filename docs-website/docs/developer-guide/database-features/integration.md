@@ -244,5 +244,5 @@ const useRealtimeProfile = (userId: string) => {
 
 ## Next Steps
 
-- Learn about [testing](../development/testing) to understand how to test database operations
+- Learn about [testing](../testing.md) to understand how to test database operations
 - Check the API routes documentation for implementing server-side endpoints

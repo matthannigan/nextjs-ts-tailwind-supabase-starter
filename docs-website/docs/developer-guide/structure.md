@@ -77,6 +77,6 @@ This template uses Next.js 14's App Router for routing. The main directories inc
 
 ## Next Steps
 
-- Read the [Authentication](./features/authentication) guide to understand how user authentication works
-- Check the [Database](./features/database) documentation for database schema and operations
-- Explore the [Testing](./development/testing) guide for writing tests
+- Read the [Authentication](./database-features/authentication) guide to understand how user authentication works
+- Check the Database documentation for database schema and operations
+- Explore the [Testing](./testing) guide for writing tests

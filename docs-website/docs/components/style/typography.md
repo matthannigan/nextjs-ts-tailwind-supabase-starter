@@ -307,6 +307,6 @@ describe('Heading', () => {
 
 ## Related Components
 
-- [Card](./card.md): Often used together with Typography components for content organization
-- [Button](./button.md): Can be combined with Text components for consistent button styling
-- [Alert](./alert.md): Uses typography components for alert titles and descriptions
+- [Card](../ui/card.md): Often used together with Typography components for content organization
+- [Button](../ui/button.md): Can be combined with Text components for consistent button styling
+- [Alert](../ui/alert.md): Uses typography components for alert titles and descriptions

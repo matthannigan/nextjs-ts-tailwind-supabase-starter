@@ -390,7 +390,6 @@ describe('Button', () => {
 
 ## Related Components
 
-- [Link](./link.md): For navigation, can be combined with Button using `asChild`
-- [Form](./form.md): Often used with Button for form submissions
+- [Form](../forms/form.md): Often used with Button for form submissions
 - [Dialog](./dialog.md): Uses Button for trigger and action buttons
 - [DropdownMenu](./dropdown-menu.md): Uses Button styling for dropdown triggers

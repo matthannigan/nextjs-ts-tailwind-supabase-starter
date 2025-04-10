@@ -734,8 +734,8 @@ describe('DropdownMenu', () => {
 
 ## Related Components
 
-- [NavigationMenu](./navigation-menu.md): For main navigation with link-based navigation patterns
-- [Select](./select.md): For selecting a single value from a list of options
+- [NavigationMenu](../navigation/navigation-menu.md): For main navigation with link-based navigation patterns
+- [Select](../forms/select.md): For selecting a single value from a list of options
 - [Dialog](./dialog.md): For displaying content that requires user interaction in a modal
 - [Popover](./popover.md): For displaying floating content that doesn't close when interacting with other parts of the page
-- [ContextMenu](./context-menu.md): Similar to DropdownMenu but triggered by right-click instead of a button
+- [ContextMenu](https://ui.shadcn.com/docs/components/context-menu): Similar to DropdownMenu but triggered by right-click instead of a button

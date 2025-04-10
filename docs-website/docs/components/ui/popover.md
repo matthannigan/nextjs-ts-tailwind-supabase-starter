@@ -423,6 +423,6 @@ describe('Popover', () => {
 ## Related Components
 
 - [Dialog](./dialog.md): Similar to Popover but designed for more complex modal interactions that require user attention.
-- [Tooltip](./tooltip.md): Used for simple text hints, with hover/focus activation rather than click.
+- [Tooltip](https://ui.shadcn.com/docs/components/tooltip): Used for simple text hints, with hover/focus activation rather than click.
 - [DropdownMenu](./dropdown-menu.md): Used for creating dropdown menus with multiple options.
-- [HoverCard](./hover-card.md): Similar to Popover but activated on hover instead of click.
+- [HoverCard](https://ui.shadcn.com/docs/components/hover-card): Similar to Popover but activated on hover instead of click.

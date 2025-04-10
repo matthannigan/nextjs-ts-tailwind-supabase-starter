@@ -456,7 +456,7 @@ describe('Card', () => {
 ## Related Components
 
 - [Container](./container.md): Can be used to wrap cards in a consistent layout
-- [Typography](./typography.md): For consistent text styling within cards
+- [Typography](../style/typography.md): For consistent text styling within cards
 - [Button](./button.md): Commonly used in card footers for actions
-- [HoverCard](./hover-card.md): For displaying rich previews in a card-like popup
+- [HoverCard](https://ui.shadcn.com/docs/components/hover-card): For displaying rich previews in a card-like popup
 - [ContentCard](./content-card.md): A more specialized card implementation with predefined content structure

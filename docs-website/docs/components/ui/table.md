@@ -602,7 +602,7 @@ describe('Table', () => {
 
 ## Related Components
 
-- [DataTable](./DataTable.md): Extension of the Table component that adds sorting, filtering, and pagination using TanStack Table.
-- [Form](./Form.md): Can be used together with Table to create editable data tables.
-- [Card](./Card.md): Alternative to tables for displaying data in a more mobile-friendly format.
-- [Select](./Select.md): Often used within table cells for data selection operations.
+- [DataTable](https://ui.shadcn.com/docs/components/data-table): Extension of the Table component that adds sorting, filtering, and pagination using TanStack Table.
+- [Form](../forms/form.md): Can be used together with Table to create editable data tables.
+- [Card](./card.md): Alternative to tables for displaying data in a more mobile-friendly format.
+- [Select](../forms/select.md): Often used within table cells for data selection operations.

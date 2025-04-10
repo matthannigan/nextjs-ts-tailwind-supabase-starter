@@ -327,4 +327,4 @@ describe('ContentCard', () => {
 
 - [Card](./card.md): The base card component from shadcn/ui that ContentCard extends
 - [Button](./button.md): Used in the default footer when providing an `href`
-- [Typography](./typography.md): Provides the `Heading` component used for card titles
+- [Typography](../style/typography.md): Provides the `Heading` component used for card titles

@@ -252,5 +252,5 @@ Consider adding:
 
 ## Next Steps
 
-- Check out the [Version Reference](../version-reference) for recommended versions of all dependencies
-- Read the [Contributing](./contributing) guide for information on contributing to the project
+- Check out the [Version Reference](./version-reference.md) for recommended versions of all dependencies
+- Read the [Contributing](./contributing.md) guide for information on contributing to the project

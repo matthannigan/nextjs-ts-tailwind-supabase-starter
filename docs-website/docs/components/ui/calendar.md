@@ -452,12 +452,6 @@ The Calendar component follows WCAG 2.1 AA accessibility guidelines and includes
 
 5. The calendar will remain visible even when selecting a date in the basic usage. For a date picker that closes upon selection, you should combine it with a Popover component as shown in the React Hook Form examples.
 
-## Related Components
-
-- [DatePicker](/docs/components/ui/date-picker.md) - A complete date picker component that includes a Calendar within a Popover
-- [Popover](/docs/components/ui/popover.md) - Used to display the Calendar in a floating panel
-- [Form](/docs/components/ui/form.md) - Used to integrate the Calendar with form validation
-
 ## Testing
 
 ```tsx
@@ -483,3 +477,10 @@ describe("Calendar component", () => {
   });
 });
 ```
+
+## Related Components
+
+- [DatePicker](https://ui.shadcn.com/docs/components/date-picker) - A complete date picker component that includes a Calendar within a Popover
+- [Popover](./popover.md) - Used to display the Calendar in a floating panel
+- [Form](../forms/form.md) - Used to integrate the Calendar with form validation
+

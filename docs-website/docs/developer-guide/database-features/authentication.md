@@ -191,5 +191,5 @@ const ProfilePage = () => {
 
 ## Next Steps
 
-- Learn about [database operations](./database) to understand how user data is stored
+- Learn about database operations to understand how user data is stored
 - Check the protected routes documentation for more advanced security scenarios

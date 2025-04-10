@@ -251,6 +251,6 @@ describe('SearchInput', () => {
 
 ## Related Components
 
-- [Input](./input.md): The base input component used within SearchInput.
+- [Input](../forms/input.md): The base input component used within SearchInput.
 - [Button](./button.md): The button component used for the search action.
-- [Form](./form.md): For more complex form handling that might incorporate the SearchInput.
+- [Form](../forms/form.md): For more complex form handling that might incorporate the SearchInput.

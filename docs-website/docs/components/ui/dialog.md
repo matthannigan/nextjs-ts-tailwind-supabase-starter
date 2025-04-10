@@ -678,8 +678,8 @@ describe('Dialog', () => {
 
 ## Related Components
 
-- [AlertDialog](./alert-dialog.md): Similar to Dialog, but for critical confirmations that interrupt the user
-- [Sheet](./sheet.md): Extends the Dialog component to create a slide-in panel from the edge of the screen
+- [AlertDialog](https://ui.shadcn.com/docs/components/alert-dialog): Similar to Dialog, but for critical confirmations that interrupt the user
+- [Sheet](https://ui.shadcn.com/docs/components/sheet): Extends the Dialog component to create a slide-in panel from the edge of the screen
 - [Popover](./popover.md): For smaller, non-modal overlays that don't block the main content
 - [DropdownMenu](./dropdown-menu.md): For dropdown menus that can trigger dialogs
-- [Drawer](./crawer.md): Alternative to Dialog for mobile-friendly slide-in panels
+- [Drawer](https://ui.shadcn.com/docs/components/drawer): Alternative to Dialog for mobile-friendly slide-in panels
