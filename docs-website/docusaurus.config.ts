@@ -38,6 +38,19 @@ const config: Config = {
           // Update this to your repo
           editUrl:
             'https://github.com/matthannigan/nextjs-ts-tailwind-supabase-starter/tree/main/docs-website/',
+          // --- ADDED: Exclude patterns ---
+          exclude: [
+            // Exclude files/directories starting with an underscore (common for drafts/partials)
+            '**/_*.*',
+            '**/_*/**',
+            // Exclude any directory named 'templates' and its contents
+            '**/templates/**/*',
+            // Exclude files ending with .template.md or .template.mdx
+            '**/*-template.{md,mdx}',
+            // Add any other specific files or patterns needed
+            // '**/my-specific-template.md',
+          ],
+          // --- End of Added Section ---
         },
         blog: {
           showReadingTime: false,
@@ -53,6 +66,8 @@ const config: Config = {
           onInlineTags: 'warn',
           onInlineAuthors: 'warn',
           onUntruncatedBlogPosts: 'ignore',
+          // You could add an 'exclude' array here too if you have blog templates
+          // exclude: ['**/blog-templates/**'],
         },
         theme: {
           customCss: './src/css/custom.css',

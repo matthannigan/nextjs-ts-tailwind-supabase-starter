@@ -33,7 +33,7 @@ const sidebars: SidebarsConfig = {
             },
           ],
         },
-        {
+        /*{
           type: 'category',
           label: 'Templates',
           items: [
@@ -42,7 +42,7 @@ const sidebars: SidebarsConfig = {
               dirName: 'developer-guide/templates',
             },
           ],
-        },
+        },*/
       ],
     },
     'developer-guide/testing',
