@@ -1,0 +1,49 @@
+To effectively unit test components using Sonner, focus on verifying that toast notifications are triggered correctly under specific conditions. Here's how to approach it: 
+
+• Mock the toast function: Since toast is a side effect, you'll need to mock it to control and observe its behavior during tests. Using Jest, this can be achieved with jest.spyOn. 
+
+import { toast } from 'sonner';
+
+jest.mock('sonner', () => ({
+  toast: jest.fn(),
+  Toaster: () => null, // Mock Toaster to prevent rendering issues
+}));
+
+• Render the component: Use a testing library like React Testing Library to render the component that uses toast. 
+
+import { render, screen, fireEvent } from '@testing-library/react';
+import MyComponent from './MyComponent'; // Replace with your component
+
+test('should display success toast on button click', () => {
+  render(<MyComponent />);
+  const button = screen.getByRole('button', { name: 'Submit' }); // Adjust the selector as needed
+  fireEvent.click(button);
+  expect(toast).toHaveBeenCalledWith('Success message', { type: 'success' });
+});
+
+• Assert toast calls: After interacting with the component, assert that toast was called with the expected arguments. This verifies that the correct toast messages are displayed for different scenarios. 
+
+test('should display error toast on API failure', async () => {
+  // Mock API response to simulate failure
+  jest.spyOn(global, 'fetch').mockRejectedValueOnce(new Error('API error'));
+  render(<MyComponent />);
+  const button = screen.getByRole('button', { name: 'Submit' });
+  fireEvent.click(button);
+  // Wait for the promise to resolve
+  await new Promise(resolve => setTimeout(resolve, 0));
+  expect(toast).toHaveBeenCalledWith('API error', { type: 'error' });
+  global.fetch.mockRestore(); // Restore the original fetch function
+});
+
+• Test different toast types: Ensure that different types of toasts (success, error, info, etc.) are triggered correctly based on component logic. 
+
+test('should display loading toast initially', () => {
+  render(<MyComponent />);
+  expect(toast).toHaveBeenCalledWith('Loading...', { type: 'loading' });
+});
+
+• Clean up mocks: After each test, clear the mock to prevent interference between tests. 
+
+afterEach(() => {
+  jest.clearAllMocks();
+});
