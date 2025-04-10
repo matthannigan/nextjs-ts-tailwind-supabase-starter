@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdocs_website=self.webpackChunkdocs_website||[]).push([[1903],{1912:s=>{s.exports=JSON.parse('{"blogBasePath":"/nextjs-ts-tailwind-supabase-starter/blog","blogTitle":"Blog","authorsListPath":"/nextjs-ts-tailwind-supabase-starter/blog/authors"}')}}]);

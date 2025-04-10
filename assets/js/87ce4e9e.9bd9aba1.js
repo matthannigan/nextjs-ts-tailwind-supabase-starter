@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdocs_website=self.webpackChunkdocs_website||[]).push([[9263],{6786:t=>{t.exports=JSON.parse('{"tags":[{"label":"Testing","permalink":"/nextjs-ts-tailwind-supabase-starter/blog/tags/testing","count":1},{"label":"Documentation","permalink":"/nextjs-ts-tailwind-supabase-starter/blog/tags/documentation","count":1}]}')}}]);

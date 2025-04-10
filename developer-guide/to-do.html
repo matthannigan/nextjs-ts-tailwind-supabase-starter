@@ -1,0 +1,255 @@
+<!doctype html>
+<html lang="en" dir="ltr" class="docs-wrapper plugin-docs plugin-id-default docs-version-current docs-doc-page docs-doc-id-developer-guide/to-do" data-has-hydrated="false">
+<head>
+<meta charset="UTF-8">
+<meta name="generator" content="Docusaurus v3.7.0">
+<title data-rh="true">Starter Template To Do Checklist | Next.js TS Tailwind Supabase Starter</title><meta data-rh="true" name="viewport" content="width=device-width,initial-scale=1"><meta data-rh="true" name="twitter:card" content="summary_large_image"><meta data-rh="true" property="og:image" content="https://matthannigan.github.io/nextjs-ts-tailwind-supabase-starter/img/docusaurus-social-card.jpg"><meta data-rh="true" name="twitter:image" content="https://matthannigan.github.io/nextjs-ts-tailwind-supabase-starter/img/docusaurus-social-card.jpg"><meta data-rh="true" property="og:url" content="https://matthannigan.github.io/nextjs-ts-tailwind-supabase-starter/developer-guide/to-do"><meta data-rh="true" property="og:locale" content="en"><meta data-rh="true" name="docusaurus_locale" content="en"><meta data-rh="true" name="docsearch:language" content="en"><meta data-rh="true" name="docusaurus_version" content="current"><meta data-rh="true" name="docusaurus_tag" content="docs-default-current"><meta data-rh="true" name="docsearch:version" content="current"><meta data-rh="true" name="docsearch:docusaurus_tag" content="docs-default-current"><meta data-rh="true" property="og:title" content="Starter Template To Do Checklist | Next.js TS Tailwind Supabase Starter"><meta data-rh="true" name="description" content="Chunk 1: Project Setup"><meta data-rh="true" property="og:description" content="Chunk 1: Project Setup"><link data-rh="true" rel="icon" href="/nextjs-ts-tailwind-supabase-starter/img/favicon.ico"><link data-rh="true" rel="canonical" href="https://matthannigan.github.io/nextjs-ts-tailwind-supabase-starter/developer-guide/to-do"><link data-rh="true" rel="alternate" href="https://matthannigan.github.io/nextjs-ts-tailwind-supabase-starter/developer-guide/to-do" hreflang="en"><link data-rh="true" rel="alternate" href="https://matthannigan.github.io/nextjs-ts-tailwind-supabase-starter/developer-guide/to-do" hreflang="x-default"><link rel="alternate" type="application/rss+xml" href="/nextjs-ts-tailwind-supabase-starter/blog/rss.xml" title="Next.js TS Tailwind Supabase Starter RSS Feed">
+<link rel="alternate" type="application/atom+xml" href="/nextjs-ts-tailwind-supabase-starter/blog/atom.xml" title="Next.js TS Tailwind Supabase Starter Atom Feed"><link rel="stylesheet" href="/nextjs-ts-tailwind-supabase-starter/assets/css/styles.980e62b3.css">
+<script src="/nextjs-ts-tailwind-supabase-starter/assets/js/runtime~main.78ae10b1.js" defer="defer"></script>
+<script src="/nextjs-ts-tailwind-supabase-starter/assets/js/main.901baf82.js" defer="defer"></script>
+</head>
+<body class="navigation-with-keyboard">
+<script>!function(){function t(t){document.documentElement.setAttribute("data-theme",t)}var e=function(){try{return new URLSearchParams(window.location.search).get("docusaurus-theme")}catch(t){}}()||function(){try{return window.localStorage.getItem("theme")}catch(t){}}();t(null!==e?e:"light")}(),function(){try{const n=new URLSearchParams(window.location.search).entries();for(var[t,e]of n)if(t.startsWith("docusaurus-data-")){var a=t.replace("docusaurus-data-","data-");document.documentElement.setAttribute(a,e)}}catch(t){}}()</script><div id="__docusaurus"><link rel="preload" as="image" href="/nextjs-ts-tailwind-supabase-starter/img/logo.svg"><div role="region" aria-label="Skip to main content"><a class="skipToContent_fXgn" href="#__docusaurus_skipToContent_fallback">Skip to main content</a></div><nav aria-label="Main" class="navbar navbar--fixed-top"><div class="navbar__inner"><div class="navbar__items"><button aria-label="Toggle navigation bar" aria-expanded="false" class="navbar__toggle clean-btn" type="button"><svg width="30" height="30" viewBox="0 0 30 30" aria-hidden="true"><path stroke="currentColor" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2" d="M4 7h22M4 15h22M4 23h22"></path></svg></button><a class="navbar__brand" href="/nextjs-ts-tailwind-supabase-starter/"><div class="navbar__logo"><img src="/nextjs-ts-tailwind-supabase-starter/img/logo.svg" alt="Project Logo" class="themedComponent_mlkZ themedComponent--light_NVdE"><img src="/nextjs-ts-tailwind-supabase-starter/img/logo.svg" alt="Project Logo" class="themedComponent_mlkZ themedComponent--dark_xIcU"></div><b class="navbar__title text--truncate">Next.js TS Tailwind Supabase Starter</b></a><a aria-current="page" class="navbar__item navbar__link navbar__link--active" href="/nextjs-ts-tailwind-supabase-starter/">Getting Started</a><a class="navbar__item navbar__link" href="/nextjs-ts-tailwind-supabase-starter/components/layout">React Components</a><a class="navbar__item navbar__link" href="/nextjs-ts-tailwind-supabase-starter/blog">Development Journey</a></div><div class="navbar__items navbar__items--right"><a href="https://github.com/matthannigan/nextjs-ts-tailwind-supabase-starter" target="_blank" rel="noopener noreferrer" class="navbar__item navbar__link">GitHub<svg width="13.5" height="13.5" aria-hidden="true" viewBox="0 0 24 24" class="iconExternalLink_nPIU"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"></path></svg></a><div class="toggle_vylO colorModeToggle_DEke"><button class="clean-btn toggleButton_gllP toggleButtonDisabled_aARS" type="button" disabled="" title="Switch between dark and light mode (currently light mode)" aria-label="Switch between dark and light mode (currently light mode)" aria-live="polite" aria-pressed="false"><svg viewBox="0 0 24 24" width="24" height="24" class="lightToggleIcon_pyhR"><path fill="currentColor" d="M12,9c1.65,0,3,1.35,3,3s-1.35,3-3,3s-3-1.35-3-3S10.35,9,12,9 M12,7c-2.76,0-5,2.24-5,5s2.24,5,5,5s5-2.24,5-5 S14.76,7,12,7L12,7z M2,13l2,0c0.55,0,1-0.45,1-1s-0.45-1-1-1l-2,0c-0.55,0-1,0.45-1,1S1.45,13,2,13z M20,13l2,0c0.55,0,1-0.45,1-1 s-0.45-1-1-1l-2,0c-0.55,0-1,0.45-1,1S19.45,13,20,13z M11,2v2c0,0.55,0.45,1,1,1s1-0.45,1-1V2c0-0.55-0.45-1-1-1S11,1.45,11,2z M11,20v2c0,0.55,0.45,1,1,1s1-0.45,1-1v-2c0-0.55-0.45-1-1-1C11.45,19,11,19.45,11,20z M5.99,4.58c-0.39-0.39-1.03-0.39-1.41,0 c-0.39,0.39-0.39,1.03,0,1.41l1.06,1.06c0.39,0.39,1.03,0.39,1.41,0s0.39-1.03,0-1.41L5.99,4.58z M18.36,16.95 c-0.39-0.39-1.03-0.39-1.41,0c-0.39,0.39-0.39,1.03,0,1.41l1.06,1.06c0.39,0.39,1.03,0.39,1.41,0c0.39-0.39,0.39-1.03,0-1.41 L18.36,16.95z M19.42,5.99c0.39-0.39,0.39-1.03,0-1.41c-0.39-0.39-1.03-0.39-1.41,0l-1.06,1.06c-0.39,0.39-0.39,1.03,0,1.41 s1.03,0.39,1.41,0L19.42,5.99z M7.05,18.36c0.39-0.39,0.39-1.03,0-1.41c-0.39-0.39-1.03-0.39-1.41,0l-1.06,1.06 c-0.39,0.39-0.39,1.03,0,1.41s1.03,0.39,1.41,0L7.05,18.36z"></path></svg><svg viewBox="0 0 24 24" width="24" height="24" class="darkToggleIcon_wfgR"><path fill="currentColor" d="M9.37,5.51C9.19,6.15,9.1,6.82,9.1,7.5c0,4.08,3.32,7.4,7.4,7.4c0.68,0,1.35-0.09,1.99-0.27C17.45,17.19,14.93,19,12,19 c-3.86,0-7-3.14-7-7C5,9.07,6.81,6.55,9.37,5.51z M12,3c-4.97,0-9,4.03-9,9s4.03,9,9,9s9-4.03,9-9c0-0.46-0.04-0.92-0.1-1.36 c-0.98,1.37-2.58,2.26-4.4,2.26c-2.98,0-5.4-2.42-5.4-5.4c0-1.81,0.89-3.42,2.26-4.4C12.92,3.04,12.46,3,12,3L12,3z"></path></svg></button></div><div class="navbarSearchContainer_Bca1"></div></div></div><div role="presentation" class="navbar-sidebar__backdrop"></div></nav><div id="__docusaurus_skipToContent_fallback" class="main-wrapper mainWrapper_z2l0"><div class="docsWrapper_hBAB"><button aria-label="Scroll back to top" class="clean-btn theme-back-to-top-button backToTopButton_sjWU" type="button"></button><div class="docRoot_UBD9"><aside class="theme-doc-sidebar-container docSidebarContainer_YfHR"><div class="sidebarViewport_aRkj"><div class="sidebar_njMd"><nav aria-label="Docs sidebar" class="menu thin-scrollbar menu_SIkG"><ul class="theme-doc-sidebar-menu menu__list"><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-1 menu__list-item"><a class="menu__link" href="/nextjs-ts-tailwind-supabase-starter/">Introduction</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-1 menu__list-item"><a class="menu__link" href="/nextjs-ts-tailwind-supabase-starter/developer-guide/structure">Project Structure</a></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="true" href="/nextjs-ts-tailwind-supabase-starter/developer-guide/database-features/integration">Database Features</a></div><ul style="display:block;overflow:visible;height:auto" class="menu__list"><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/nextjs-ts-tailwind-supabase-starter/developer-guide/database-features/integration">Integration</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/nextjs-ts-tailwind-supabase-starter/developer-guide/database-features/authentication">Authentication</a></li></ul></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist menu__link--sublist-caret menu__link--active" role="button" aria-expanded="true" href="/nextjs-ts-tailwind-supabase-starter/developer-guide/blueprint">Development</a></div><ul style="display:block;overflow:visible;height:auto" class="menu__list"><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/nextjs-ts-tailwind-supabase-starter/developer-guide/blueprint">Blueprint</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link menu__link--active" aria-current="page" tabindex="0" href="/nextjs-ts-tailwind-supabase-starter/developer-guide/to-do">To Do Checklist</a></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-2 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" tabindex="0" href="/nextjs-ts-tailwind-supabase-starter/developer-guide/prompts/setup-prompts">LLM Prompts</a></div></li></ul></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-1 menu__list-item"><a class="menu__link" href="/nextjs-ts-tailwind-supabase-starter/developer-guide/testing">Testing</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-1 menu__list-item"><a class="menu__link" href="/nextjs-ts-tailwind-supabase-starter/developer-guide/deployment">Deployment</a></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="true" href="/nextjs-ts-tailwind-supabase-starter/developer-guide/tools/eslint">Tools</a></div><ul style="display:block;overflow:visible;height:auto" class="menu__list"><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/nextjs-ts-tailwind-supabase-starter/developer-guide/tools/eslint">ESLint</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/nextjs-ts-tailwind-supabase-starter/developer-guide/tools/prettier">Prettier</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/nextjs-ts-tailwind-supabase-starter/developer-guide/tools/jest">Jest</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/nextjs-ts-tailwind-supabase-starter/developer-guide/tools/husky-lint-staged">Husky &amp; lint-staged</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/nextjs-ts-tailwind-supabase-starter/developer-guide/tools/repomix">Repomix</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/nextjs-ts-tailwind-supabase-starter/developer-guide/tools/playwright">Playwright</a></li></ul></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-1 menu__list-item"><a class="menu__link" href="/nextjs-ts-tailwind-supabase-starter/developer-guide/contributing">Contributing</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-1 menu__list-item"><a class="menu__link" href="/nextjs-ts-tailwind-supabase-starter/developer-guide/version-reference">Version Reference</a></li></ul></nav></div></div></aside><main class="docMainContainer_TBSr"><div class="container padding-top--md padding-bottom--lg"><div class="row"><div class="col docItemCol_VOVn"><div class="docItemContainer_Djhp"><article><nav class="theme-doc-breadcrumbs breadcrumbsContainer_Z_bl" aria-label="Breadcrumbs"><ul class="breadcrumbs" itemscope="" itemtype="https://schema.org/BreadcrumbList"><li class="breadcrumbs__item"><a aria-label="Home page" class="breadcrumbs__link" href="/nextjs-ts-tailwind-supabase-starter/"><svg viewBox="0 0 24 24" class="breadcrumbHomeIcon_YNFT"><path d="M10 19v-5h4v5c0 .55.45 1 1 1h3c.55 0 1-.45 1-1v-7h1.7c.46 0 .68-.57.33-.87L12.67 3.6c-.38-.34-.96-.34-1.34 0l-8.36 7.53c-.34.3-.13.87.33.87H5v7c0 .55.45 1 1 1h3c.55 0 1-.45 1-1z" fill="currentColor"></path></svg></a></li><li class="breadcrumbs__item"><span class="breadcrumbs__link">Development</span><meta itemprop="position" content="1"></li><li itemscope="" itemprop="itemListElement" itemtype="https://schema.org/ListItem" class="breadcrumbs__item breadcrumbs__item--active"><span class="breadcrumbs__link" itemprop="name">To Do Checklist</span><meta itemprop="position" content="2"></li></ul></nav><div class="tocCollapsible_ETCw theme-doc-toc-mobile tocMobile_ITEo"><button type="button" class="clean-btn tocCollapsibleButton_TO0P">On this page</button></div><div class="theme-doc-markdown markdown"><header><h1>Starter Template To Do Checklist</h1></header>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="chunk-1-project-setup">Chunk 1: Project Setup<a href="#chunk-1-project-setup" class="hash-link" aria-label="Direct link to Chunk 1: Project Setup" title="Direct link to Chunk 1: Project Setup">​</a></h2>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="11-initialize-nextjs-project">1.1 Initialize Next.js Project<a href="#11-initialize-nextjs-project" class="hash-link" aria-label="Direct link to 1.1 Initialize Next.js Project" title="Direct link to 1.1 Initialize Next.js Project">​</a></h3>
+<ul class="contains-task-list containsTaskList_mC6p">
+<li class="task-list-item"><input type="checkbox" disabled="" checked=""> <!-- -->Create Next.js 14 project with TypeScript 5.2+</li>
+<li class="task-list-item"><input type="checkbox" disabled="" checked=""> <!-- -->Initialize Git repository</li>
+<li class="task-list-item"><input type="checkbox" disabled="" checked=""> <!-- -->Create initial commit</li>
+<li class="task-list-item"><input type="checkbox" disabled="" checked=""> <!-- -->Set up .gitignore for Next.js</li>
+<li class="task-list-item"><input type="checkbox" disabled="" checked=""> <!-- -->Configure tsconfig.json for proper TypeScript 5.2+ settings</li>
+<li class="task-list-item"><input type="checkbox" disabled="" checked=""> <!-- -->Create package.json scripts for development, build, and start</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="12-configure-styling-and-linting">1.2 Configure Styling and Linting<a href="#12-configure-styling-and-linting" class="hash-link" aria-label="Direct link to 1.2 Configure Styling and Linting" title="Direct link to 1.2 Configure Styling and Linting">​</a></h3>
+<ul class="contains-task-list containsTaskList_mC6p">
+<li class="task-list-item"><input type="checkbox" disabled="" checked=""> <!-- -->Install TailwindCSS 3.3+ and dependencies</li>
+<li class="task-list-item"><input type="checkbox" disabled="" checked=""> <!-- -->Configure tailwind.config.js</li>
+<li class="task-list-item"><input type="checkbox" disabled="" checked=""> <!-- -->Set up postcss.config.js</li>
+<li class="task-list-item"><input type="checkbox" disabled="" checked=""> <!-- -->Create global.css with Tailwind imports</li>
+<li class="task-list-item"><input type="checkbox" disabled="" checked=""> <!-- -->Install ESLint 8.x and dependencies</li>
+<li class="task-list-item"><input type="checkbox" disabled="" checked=""> <!-- -->Configure .eslintrc.js with TypeScript and React rules</li>
+<li class="task-list-item"><input type="checkbox" disabled="" checked=""> <!-- -->Install Prettier 3.x</li>
+<li class="task-list-item"><input type="checkbox" disabled="" checked=""> <!-- -->Create .prettierrc with configuration</li>
+<li class="task-list-item"><input type="checkbox" disabled="" checked=""> <!-- -->Add lint and format scripts to package.json</li>
+<li class="task-list-item"><input type="checkbox" disabled="" checked=""> <!-- -->Create pre-commit hooks for linting and formatting</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="13-set-up-project-structure">1.3 Set Up Project Structure<a href="#13-set-up-project-structure" class="hash-link" aria-label="Direct link to 1.3 Set Up Project Structure" title="Direct link to 1.3 Set Up Project Structure">​</a></h3>
+<ul class="contains-task-list containsTaskList_mC6p">
+<li class="task-list-item"><input type="checkbox" disabled="" checked=""> <!-- -->Create components/ directory</li>
+<li class="task-list-item"><input type="checkbox" disabled="" checked=""> <!-- -->Create app/ directory (for Next.js 14 App Router)</li>
+<li class="task-list-item"><input type="checkbox" disabled="" checked=""> <!-- -->Create lib/ directory for utility functions</li>
+<li class="task-list-item"><input type="checkbox" disabled="" checked=""> <!-- -->Create lib/utils/ directory for helper functions</li>
+<li class="task-list-item"><input type="checkbox" disabled="" checked=""> <!-- -->Create contexts/ directory for React 18.x contexts</li>
+<li class="task-list-item"><input type="checkbox" disabled="" checked=""> <!-- -->Create hooks/ directory for custom hooks</li>
+<li class="task-list-item"><input type="checkbox" disabled="" checked=""> <!-- -->Create types/ directory for TypeScript 5.2+ types</li>
+<li class="task-list-item"><input type="checkbox" disabled="" checked=""> <!-- -->Create tests/ directory</li>
+<li class="task-list-item"><input type="checkbox" disabled="" checked=""> <!-- -->Create styles/ directory for component-specific styles</li>
+<li class="task-list-item"><input type="checkbox" disabled="" checked=""> <!-- -->Create README.md with project overview and setup instructions</li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->Create .env.example file</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="14-implement-basic-layout-components">1.4 Implement Basic Layout Components<a href="#14-implement-basic-layout-components" class="hash-link" aria-label="Direct link to 1.4 Implement Basic Layout Components" title="Direct link to 1.4 Implement Basic Layout Components">​</a></h3>
+<ul class="contains-task-list containsTaskList_mC6p">
+<li class="task-list-item"><input type="checkbox" disabled="" checked=""> <!-- -->Create app/layout.tsx component</li>
+<li class="task-list-item"><input type="checkbox" disabled="" checked=""> <!-- -->Implement components/layout/header.tsx</li>
+<li class="task-list-item"><input type="checkbox" disabled="" checked=""> <!-- -->Create components/layout/footer.tsx</li>
+<li class="task-list-item"><input type="checkbox" disabled="" checked=""> <!-- -->Add global styles to styles/globals.css</li>
+<li class="task-list-item"><input type="checkbox" disabled="" checked=""> <!-- -->Create components/ui/ directory for reusable UI components</li>
+<li class="task-list-item"><input type="checkbox" disabled="" checked=""> <!-- -->Implement components/ui/button.tsx with TailwindCSS 3.3+</li>
+<li class="task-list-item"><input type="checkbox" disabled="" checked=""> <!-- -->Create components/ui/card.tsx</li>
+<li class="task-list-item"><input type="checkbox" disabled="" checked=""> <!-- -->Implement components/ui/input.tsx</li>
+<li class="task-list-item"><input type="checkbox" disabled="" checked=""> <!-- -->Create a responsive container component</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="15-configure-testing-infrastructure">1.5 Configure Testing Infrastructure<a href="#15-configure-testing-infrastructure" class="hash-link" aria-label="Direct link to 1.5 Configure Testing Infrastructure" title="Direct link to 1.5 Configure Testing Infrastructure">​</a></h3>
+<ul class="contains-task-list containsTaskList_mC6p">
+<li class="task-list-item"><input type="checkbox" disabled="" checked=""> <!-- -->Install Jest 29.x and related dependencies</li>
+<li class="task-list-item"><input type="checkbox" disabled="" checked=""> <!-- -->Install React Testing Library 14.x and dependencies</li>
+<li class="task-list-item"><input type="checkbox" disabled="" checked=""> <!-- -->Configure jest.config.js</li>
+<li class="task-list-item"><input type="checkbox" disabled="" checked=""> <!-- -->Set up jest.setup.js</li>
+<li class="task-list-item"><input type="checkbox" disabled="" checked=""> <!-- -->Create test utilities in tests/utils/</li>
+<li class="task-list-item"><input type="checkbox" disabled="" checked=""> <!-- -->Add test helper functions</li>
+<li class="task-list-item"><input type="checkbox" disabled="" checked=""> <!-- -->Set up mock providers for testing</li>
+<li class="task-list-item"><input type="checkbox" disabled="" checked=""> <!-- -->Write example test for Layout component</li>
+<li class="task-list-item"><input type="checkbox" disabled="" checked=""> <!-- -->Write example test for a utility function</li>
+<li class="task-list-item"><input type="checkbox" disabled="" checked=""> <!-- -->Add testing scripts to package.json</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="chunk-2-supabase-integration">Chunk 2: Supabase Integration<a href="#chunk-2-supabase-integration" class="hash-link" aria-label="Direct link to Chunk 2: Supabase Integration" title="Direct link to Chunk 2: Supabase Integration">​</a></h2>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="21-set-up-supabase-project">2.1 Set Up Supabase Project<a href="#21-set-up-supabase-project" class="hash-link" aria-label="Direct link to 2.1 Set Up Supabase Project" title="Direct link to 2.1 Set Up Supabase Project">​</a></h3>
+<ul class="contains-task-list containsTaskList_mC6p">
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->Create Supabase 2.x project in Supabase dashboard</li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->Configure authentication providers in Supabase</li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->Set up email templates for authentication</li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->Configure security settings</li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->Generate API keys</li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->Add Supabase URL and API key to .env.local</li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->Update .env.example with placeholder values</li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->Install @supabase/supabase-js v2.x</li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->Create lib/supabase.ts client utility</li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->Set up type definitions for Supabase</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="22-define-core-typescript-interfaces">2.2 Define Core TypeScript Interfaces<a href="#22-define-core-typescript-interfaces" class="hash-link" aria-label="Direct link to 2.2 Define Core TypeScript Interfaces" title="Direct link to 2.2 Define Core TypeScript Interfaces">​</a></h3>
+<ul class="contains-task-list containsTaskList_mC6p">
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->Create types/database.types.ts</li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->Define User interface with TypeScript 5.2+</li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->Create additional supporting interfaces</li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->Set up type guards for database entities</li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->Create utility types for API responses</li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->Define enum types for states and roles</li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->Create serialization helpers for database entities</li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->Set up Zod 3.x schemas for validation</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="23-implement-users-table-schema">2.3 Implement Users Table Schema<a href="#23-implement-users-table-schema" class="hash-link" aria-label="Direct link to 2.3 Implement Users Table Schema" title="Direct link to 2.3 Implement Users Table Schema">​</a></h3>
+<ul class="contains-task-list containsTaskList_mC6p">
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->Create SQL script for users table in Supabase</li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->Set up RLS policies for users table</li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->Create SQL triggers for user data</li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->Implement SQL functions for user operations</li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->Test user table with example queries</li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->Create lib/db/users.ts with database functions</li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->Implement createUser function with Supabase 2.x</li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->Create getUserById function</li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->Implement updateUser function</li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->Create tests for user database functions</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="24-create-database-helper-functions">2.4 Create Database Helper Functions<a href="#24-create-database-helper-functions" class="hash-link" aria-label="Direct link to 2.4 Create Database Helper Functions" title="Direct link to 2.4 Create Database Helper Functions">​</a></h3>
+<ul class="contains-task-list containsTaskList_mC6p">
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->Implement lib/db/index.ts for common operations with Supabase 2.x</li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->Create transaction helper functions</li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->Implement error handling for database operations</li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->Create pagination helpers for Supabase queries</li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->Implement filtering helpers</li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->Create sorting utility functions</li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->Write tests for database helper functions</li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->Document database functions with JSDoc</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="chunk-3-user-authentication">Chunk 3: User Authentication<a href="#chunk-3-user-authentication" class="hash-link" aria-label="Direct link to Chunk 3: User Authentication" title="Direct link to Chunk 3: User Authentication">​</a></h2>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="31-create-authentication-context">3.1 Create Authentication Context<a href="#31-create-authentication-context" class="hash-link" aria-label="Direct link to 3.1 Create Authentication Context" title="Direct link to 3.1 Create Authentication Context">​</a></h3>
+<ul class="contains-task-list containsTaskList_mC6p">
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->Create contexts/auth-context.tsx with React 18.x Context API</li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->Implement authentication state interface</li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->Create useAuth hook</li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->Implement loading states</li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->Create error handling</li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->Implement session persistence with Supabase Auth</li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->Add session expiry handling</li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->Create auto-refresh functionality</li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->Write tests for AuthContext with Jest 29.x</li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->Document authentication context usage</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="32-implement-registration-flow">3.2 Implement Registration Flow<a href="#32-implement-registration-flow" class="hash-link" aria-label="Direct link to 3.2 Implement Registration Flow" title="Direct link to 3.2 Implement Registration Flow">​</a></h3>
+<ul class="contains-task-list containsTaskList_mC6p">
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->Create components/auth/register-form.tsx</li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->Implement form state management with React 18.x</li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->Create input validation with Zod 3.x</li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->Implement error display</li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->Add loading state UI</li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->Create success state handling</li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->Implement redirect after registration</li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->Add form accessibility features</li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->Write tests for registration form with React Testing Library 14.x</li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->Document registration workflow</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="33-build-login-functionality">3.3 Build Login Functionality<a href="#33-build-login-functionality" class="hash-link" aria-label="Direct link to 3.3 Build Login Functionality" title="Direct link to 3.3 Build Login Functionality">​</a></h3>
+<ul class="contains-task-list containsTaskList_mC6p">
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->Create components/auth/login-form.tsx</li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->Implement form state management</li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->Create input validation with Zod 3.x</li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->Implement error display</li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->Add loading state UI</li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->Implement &quot;Remember me&quot; functionality with Supabase Auth</li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->Create redirect after login</li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->Add password reset link</li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->Write tests for login form with React Testing Library 14.x</li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->Document login workflow</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="34-create-anonymous-session-handling">3.4 Create Anonymous Session Handling<a href="#34-create-anonymous-session-handling" class="hash-link" aria-label="Direct link to 3.4 Create Anonymous Session Handling" title="Direct link to 3.4 Create Anonymous Session Handling">​</a></h3>
+<ul class="contains-task-list containsTaskList_mC6p">
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->Create components/auth/anonymous-login-form.tsx</li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->Implement anonymous session creation in AuthContext with Supabase Auth</li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->Create session persistence for anonymous sessions</li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->Implement session recovery mechanism</li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->Add conversion to permanent account functionality</li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->Create session expiry handling</li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->Add anonymous user display name handling</li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->Write tests for anonymous sessions</li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->Document anonymous session workflow</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="35-implement-protected-routes">3.5 Implement Protected Routes<a href="#35-implement-protected-routes" class="hash-link" aria-label="Direct link to 3.5 Implement Protected Routes" title="Direct link to 3.5 Implement Protected Routes">​</a></h3>
+<ul class="contains-task-list containsTaskList_mC6p">
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->Create middleware for Next.js 14 App Router</li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->Implement authentication checks</li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->Create redirect logic for unauthenticated users</li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->Add loading state during authentication check</li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->Implement different protection levels</li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->Create custom 404 page (app/not-found.tsx)</li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->Implement unauthorized page</li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->Add role-based protection</li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->Write tests for protected routes with Jest 29.x</li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->Document protection usage</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="chunk-4-core-api-routes">Chunk 4: Core API Routes<a href="#chunk-4-core-api-routes" class="hash-link" aria-label="Direct link to Chunk 4: Core API Routes" title="Direct link to Chunk 4: Core API Routes">​</a></h2>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="41-create-authentication-api-routes">4.1 Create Authentication API Routes<a href="#41-create-authentication-api-routes" class="hash-link" aria-label="Direct link to 4.1 Create Authentication API Routes" title="Direct link to 4.1 Create Authentication API Routes">​</a></h3>
+<ul class="contains-task-list containsTaskList_mC6p">
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->Implement app/api/auth/register/route.ts (Next.js 14 Route Handler)</li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->Create app/api/auth/login/route.ts</li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->Implement app/api/auth/anonymous/route.ts</li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->Create app/api/auth/logout/route.ts</li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->Implement middleware for authentication</li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->Create session validation helpers</li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->Add rate limiting for authentication endpoints</li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->Implement error handling and response formatting</li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->Create logging for authentication attempts</li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->Write tests for authentication API routes with Jest 29.x</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="42-implement-api-testing-infrastructure">4.2 Implement API Testing Infrastructure<a href="#42-implement-api-testing-infrastructure" class="hash-link" aria-label="Direct link to 4.2 Implement API Testing Infrastructure" title="Direct link to 4.2 Implement API Testing Infrastructure">​</a></h3>
+<ul class="contains-task-list containsTaskList_mC6p">
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->Create tests/utils/api.ts with test helpers</li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->Implement mock Supabase client for testing</li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->Create request and response mocks</li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->Set up test database seed functions</li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->Implement API test fixtures</li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->Create end-to-end API test suite with Playwright 1.40+</li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->Add integration tests for API routes</li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->Create documentation for API testing</li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->Set up CI workflow for API tests</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="final-integration-tasks">Final Integration Tasks<a href="#final-integration-tasks" class="hash-link" aria-label="Direct link to Final Integration Tasks" title="Direct link to Final Integration Tasks">​</a></h2>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="fi1-integration-testing">FI.1 Integration Testing<a href="#fi1-integration-testing" class="hash-link" aria-label="Direct link to FI.1 Integration Testing" title="Direct link to FI.1 Integration Testing">​</a></h3>
+<ul class="contains-task-list containsTaskList_mC6p">
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->Create comprehensive test plans</li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->Implement end-to-end tests for user flows with Playwright 1.40+</li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->Test authentication flow from registration to logout</li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->Test Supabase Realtime functionality if implemented</li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->Verify mobile responsiveness for all screens with TailwindCSS 3.3+</li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->Test error handling and edge cases</li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->Perform cross-browser testing</li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->Verify accessibility compliance</li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->Document test results and fix issues</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="fi2-documentation">FI.2 Documentation<a href="#fi2-documentation" class="hash-link" aria-label="Direct link to FI.2 Documentation" title="Direct link to FI.2 Documentation">​</a></h3>
+<ul class="contains-task-list containsTaskList_mC6p">
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->Update README.md with comprehensive information</li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->Create API documentation</li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->Document database schema for Supabase</li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->Write component usage examples</li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->Create developer onboarding guide</li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->Document testing procedures with Jest 29.x and Playwright 1.40+</li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->Add inline code documentation</li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->Create user manual for the application</li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->Document known issues and workarounds</li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->Prepare handoff documentation for next phase</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="fi3-deployment-preparation">FI.3 Deployment Preparation<a href="#fi3-deployment-preparation" class="hash-link" aria-label="Direct link to FI.3 Deployment Preparation" title="Direct link to FI.3 Deployment Preparation">​</a></h3>
+<ul class="contains-task-list containsTaskList_mC6p">
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->Configure production environment variables for Next.js 14</li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->Set up staging environment</li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->Create deployment scripts</li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->Configure CI/CD pipeline</li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->Set up error monitoring</li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->Configure logging</li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->Create backup strategy for Supabase data</li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->Document deployment process</li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->Test deployment in staging environment</li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->Prepare for production deployment</li>
+</ul></div><footer class="theme-doc-footer docusaurus-mt-lg"><div class="row margin-top--sm theme-doc-footer-edit-meta-row"><div class="col"><a href="https://github.com/matthannigan/nextjs-ts-tailwind-supabase-starter/tree/main/docs-website/docs/developer-guide/to-do.md" target="_blank" rel="noopener noreferrer" class="theme-edit-this-page"><svg fill="currentColor" height="20" width="20" viewBox="0 0 40 40" class="iconEdit_Z9Sw" aria-hidden="true"><g><path d="m34.5 11.7l-3 3.1-6.3-6.3 3.1-3q0.5-0.5 1.2-0.5t1.1 0.5l3.9 3.9q0.5 0.4 0.5 1.1t-0.5 1.2z m-29.5 17.1l18.4-18.5 6.3 6.3-18.4 18.4h-6.3v-6.2z"></path></g></svg>Edit this page</a></div><div class="col lastUpdated_JAkA"></div></div></footer></article><nav class="pagination-nav docusaurus-mt-lg" aria-label="Docs pages"><a class="pagination-nav__link pagination-nav__link--prev" href="/nextjs-ts-tailwind-supabase-starter/developer-guide/blueprint"><div class="pagination-nav__sublabel">Previous</div><div class="pagination-nav__label">Blueprint</div></a><a class="pagination-nav__link pagination-nav__link--next" href="/nextjs-ts-tailwind-supabase-starter/developer-guide/prompts/setup-prompts"><div class="pagination-nav__sublabel">Next</div><div class="pagination-nav__label">Setup</div></a></nav></div></div><div class="col col--3"><div class="tableOfContents_bqdL thin-scrollbar theme-doc-toc-desktop"><ul class="table-of-contents table-of-contents__left-border"><li><a href="#chunk-1-project-setup" class="table-of-contents__link toc-highlight">Chunk 1: Project Setup</a><ul><li><a href="#11-initialize-nextjs-project" class="table-of-contents__link toc-highlight">1.1 Initialize Next.js Project</a></li><li><a href="#12-configure-styling-and-linting" class="table-of-contents__link toc-highlight">1.2 Configure Styling and Linting</a></li><li><a href="#13-set-up-project-structure" class="table-of-contents__link toc-highlight">1.3 Set Up Project Structure</a></li><li><a href="#14-implement-basic-layout-components" class="table-of-contents__link toc-highlight">1.4 Implement Basic Layout Components</a></li><li><a href="#15-configure-testing-infrastructure" class="table-of-contents__link toc-highlight">1.5 Configure Testing Infrastructure</a></li></ul></li><li><a href="#chunk-2-supabase-integration" class="table-of-contents__link toc-highlight">Chunk 2: Supabase Integration</a><ul><li><a href="#21-set-up-supabase-project" class="table-of-contents__link toc-highlight">2.1 Set Up Supabase Project</a></li><li><a href="#22-define-core-typescript-interfaces" class="table-of-contents__link toc-highlight">2.2 Define Core TypeScript Interfaces</a></li><li><a href="#23-implement-users-table-schema" class="table-of-contents__link toc-highlight">2.3 Implement Users Table Schema</a></li><li><a href="#24-create-database-helper-functions" class="table-of-contents__link toc-highlight">2.4 Create Database Helper Functions</a></li></ul></li><li><a href="#chunk-3-user-authentication" class="table-of-contents__link toc-highlight">Chunk 3: User Authentication</a><ul><li><a href="#31-create-authentication-context" class="table-of-contents__link toc-highlight">3.1 Create Authentication Context</a></li><li><a href="#32-implement-registration-flow" class="table-of-contents__link toc-highlight">3.2 Implement Registration Flow</a></li><li><a href="#33-build-login-functionality" class="table-of-contents__link toc-highlight">3.3 Build Login Functionality</a></li><li><a href="#34-create-anonymous-session-handling" class="table-of-contents__link toc-highlight">3.4 Create Anonymous Session Handling</a></li><li><a href="#35-implement-protected-routes" class="table-of-contents__link toc-highlight">3.5 Implement Protected Routes</a></li></ul></li><li><a href="#chunk-4-core-api-routes" class="table-of-contents__link toc-highlight">Chunk 4: Core API Routes</a><ul><li><a href="#41-create-authentication-api-routes" class="table-of-contents__link toc-highlight">4.1 Create Authentication API Routes</a></li><li><a href="#42-implement-api-testing-infrastructure" class="table-of-contents__link toc-highlight">4.2 Implement API Testing Infrastructure</a></li></ul></li><li><a href="#final-integration-tasks" class="table-of-contents__link toc-highlight">Final Integration Tasks</a><ul><li><a href="#fi1-integration-testing" class="table-of-contents__link toc-highlight">FI.1 Integration Testing</a></li><li><a href="#fi2-documentation" class="table-of-contents__link toc-highlight">FI.2 Documentation</a></li><li><a href="#fi3-deployment-preparation" class="table-of-contents__link toc-highlight">FI.3 Deployment Preparation</a></li></ul></li></ul></div></div></div></div></main></div></div></div><footer class="footer footer--dark"><div class="container container-fluid"><div class="footer__bottom text--center"><div class="footer__copyright">Built with <a href="https://docusaurus.io/" target="_blank">Docusaurus</a>.</div></div></div></footer></div>
+</body>
+</html>

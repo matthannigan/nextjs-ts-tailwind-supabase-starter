@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdocs_website=self.webpackChunkdocs_website||[]).push([[758],{8538:e=>{e.exports=JSON.parse('{"metadata":{"permalink":"/nextjs-ts-tailwind-supabase-starter/blog","page":1,"postsPerPage":10,"totalPages":1,"totalCount":2,"blogDescription":"Blog","blogTitle":"Blog"}}')}}]);
