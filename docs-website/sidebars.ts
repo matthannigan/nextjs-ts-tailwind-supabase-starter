@@ -5,7 +5,7 @@ import type { SidebarsConfig } from '@docusaurus/plugin-content-docs';
  */
 const sidebars: SidebarsConfig = {
   start: [
-    'intro',
+    'README',
     'developer-guide/structure',
     {
       type: 'category',

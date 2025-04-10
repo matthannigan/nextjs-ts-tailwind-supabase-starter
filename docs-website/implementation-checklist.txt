@@ -8,7 +8,7 @@
 ## 2. Documentation Content
 
 - [ ] Add the following documentation files to the appropriate directories:
-  - [X] `docs/intro.md` (updated version)
+  - [X] `docs/README.md` (updated version)
   - [X] `docs/structure.md` (new file)
   - [X] `docs/features/authentication.md` (new file)
   - [X] `docs/features/database.md` (new file)
