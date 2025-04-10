@@ -97,17 +97,17 @@ const config: Config = {
     },
     footer: {
       style: 'dark',
-      links: [
+      /*links: [
         {
           title: 'Docs',
           items: [
             {
-              label: 'Getting Started',
-              to: '/intro',
+              label: 'Introduction',
+              to: 'intro',
             },
             {
               label: 'Project Structure',
-              to: '/structure',
+              to: 'structure',
             },
           ],
         },
@@ -120,8 +120,9 @@ const config: Config = {
             },
           ],
         },
-      ],
-      copyright: `Copyright © ${new Date().getFullYear()} Next.js TS Tailwind Supabase Starter. Built with Docusaurus.`,
+      ],*/
+      //copyright: `Copyright © ${new Date().getFullYear()} Next.js TS Tailwind Supabase Starter. Built with Docusaurus.`,
+      copyright: `Built with <a href="https://docusaurus.io/" target="_blank">Docusaurus</a>.`,
     },
     prism: {
       theme: prismThemes.github,
