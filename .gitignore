@@ -48,5 +48,9 @@ node_modules/
 # Old/backup files
 *.old
 
+# New/draft files
+*.new
+*.draft
+
 # Reporting
 test-report.html
