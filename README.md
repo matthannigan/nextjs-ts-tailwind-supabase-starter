@@ -1,40 +1,102 @@
-# Starter Template with Next.js + Typescript + TailwindCSS + Supabase
+# Next.js TS Tailwind Supabase Starter
 
-A starter template for a contemporary web-based application with versions limited to the October 2024 knowledge cutoff for Claude 3.7 Sonnet
+A modern, full-featured starter template for building web applications with Next.js 14, TypeScript 5.4+, TailwindCSS 3.3+, and Supabase 2.x.
 
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+## Features
 
-## Getting Started
+- **Next.js 14** with App Router for efficient page routing and server components
+- **TypeScript 5.4+** for type safety and enhanced developer experience
+- **TailwindCSS 3.3+** for utility-first styling
+- **Supabase 2.x** for authentication and database management
+- **Jest 29.x** and **React Testing Library 14.x** for testing
+- **ESLint 8.x** and **Prettier 3.x** for code quality and formatting
+- Complete authentication system with email/password and anonymous sessions
+- Protected routes with role-based access control
+- Responsive UI components built with TailwindCSS
 
-First, run the development server:
+## Quick Start
+
+### Prerequisites
+
+- Node.js 18.0 or later
+- Git
+
+### Installation
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/matthannigan/nextjs-ts-tailwind-supabase-starter.git
+cd nextjs-ts-tailwind-supabase-starter
+```
+
+2. Install dependencies:
+
+```bash
+npm install
+```
+
+3. Set up environment variables:
+
+```bash
+cp .env.example .env.local
+```
+
+Edit `.env.local` to add your Supabase URL and anon key.
+
+4. Start the development server:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Your application will be available at http://localhost:3000.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Documentation Sections
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### Developer Guide
 
-## Learn More
+- [Project Structure](https://matthannigan.github.io/nextjs-ts-tailwind-supabase-starter/developer-guide/structure) - Learn about the project organization
+- [Database Integration](https://matthannigan.github.io/nextjs-ts-tailwind-supabase-starter/developer-guide/database-features/integration) - Database schema and operations
+- [Authentication](https://matthannigan.github.io/nextjs-ts-tailwind-supabase-starter/developer-guide/database-features/authentication) - Understand the authentication system
+- [Testing](https://matthannigan.github.io/nextjs-ts-tailwind-supabase-starter/developer-guide/testing) - How to test the application
+- [Deployment](https://matthannigan.github.io/nextjs-ts-tailwind-supabase-starter/developer-guide/deployment) - Deployment instructions
+- [Tools](https://matthannigan.github.io/nextjs-ts-tailwind-supabase-starter/developer-guide/tools/) -  Pre-installed developer aids
+- [Contributing](https://matthannigan.github.io/nextjs-ts-tailwind-supabase-starter/developer-guide/contributing) - Process for contributing bug fixes and feature additions
+- [Version Reference](https://matthannigan.github.io/nextjs-ts-tailwind-supabase-starter/developer-guide/version-reference) - List of recommended versions for all tools and libraries
 
-To learn more about Next.js, take a look at the following resources:
+### React Components
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- [Layout](https://matthannigan.github.io/nextjs-ts-tailwind-supabase-starter/components/layout) - Components for displaying app pages
+- [Navigation](https://matthannigan.github.io/nextjs-ts-tailwind-supabase-starter/components/navigation) - Components for moving between app pages
+- [Basic UI](https://matthannigan.github.io/nextjs-ts-tailwind-supabase-starter/components/ui) - shadcn UI components already included in project
+- [Forms](https://matthannigan.github.io/nextjs-ts-tailwind-supabase-starter/components/forms) - shadcn Form and Input components already included in project 
+- **Style** - [Typography](https://matthannigan.github.io/nextjs-ts-tailwind-supabase-starter/components/style/typography) and [Light/Dark Theme Switcher](https://matthannigan.github.io/nextjs-ts-tailwind-supabase-starter/components/style/theme-switch)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+### Development Journey
 
-## Deploy on Vercel
+- [Blog](https://matthannigan.github.io/nextjs-ts-tailwind-supabase-starter/blog) - **in development** journal about approach, misteps, and successes building the template
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Version History
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+### v0.3 - 2025-04-10
+- Installed shadcn@2.3.0 and essential components
+- Add UI components showcase page
+- Added component documentation
+- Added React unit tests for all components
+- Added jest-html-reporters for generating test reports
+- Refactored documentation to use Docusaurus
+
+### v0.2.x - 2025-03-17
+
+- Configured testing infrastructure
+- Created pre-commit hooks for linting and formatting
+- Added Playwright for end-to-end testing
+- Added documentation for testing and linting tools
+
+### v0.1 - 2025-03-16 - Initial Release
+
+- Initialized Next.js project
+- Configured styling and linting
+- Set-up project structure
+- Implemented basic layout components

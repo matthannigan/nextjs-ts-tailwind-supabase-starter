@@ -31,7 +31,7 @@ A modern, full-featured starter template for building web applications with Next
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/MGH/nextjs-ts-tailwind-supabase-starter.git
+git clone https://github.com/matthannigan/nextjs-ts-tailwind-supabase-starter.git
 cd nextjs-ts-tailwind-supabase-starter
 ```
 
@@ -59,8 +59,49 @@ Your application will be available at http://localhost:3000.
 
 ## Documentation Sections
 
+### Developer Guide
+
 - [Project Structure](./developer-guide/structure) - Learn about the project organization
+- [Database Integration](./developer-guide/database-features/integration) - Database schema and operations
 - [Authentication](./developer-guide/database-features/authentication) - Understand the authentication system
-- Database - Database schema and operations
 - [Testing](./developer-guide/testing) - How to test the application
 - [Deployment](./developer-guide/deployment) - Deployment instructions
+- [Tools](./developer-guide/tools/) -  Pre-installed developer aids
+- [Contributing](./developer-guide/contributing) - Process for contributing bug fixes and feature additions
+- [Version Reference](./developer-guide/version-reference) - List of recommended versions for all tools and libraries
+
+### React Components
+
+- [Layout](./components/layout) - Components for displaying app pages
+- [Navigation](./components/navigation) - Components for moving between app pages
+- [Basic UI](./components/ui) - shadcn UI components already included in project
+- [Forms](./components/forms) - shadcn Form and Input components already included in project 
+- **Style** - [Typography](./components/style/typography) and [Light/Dark Theme Switcher](./components/style/theme-switch)
+
+### Development Journey
+
+- [Blog](./blog) - **in development** journal about approach, misteps, and successes building the template
+
+## Version History
+
+### v0.3 - 2025-04-10
+- Installed shadcn@2.3.0 and essential components
+- Add UI components showcase page
+- Added component documentation
+- Added React unit tests for all components
+- Added jest-html-reporters for generating test reports
+- Refactored documentation to use Docusaurus
+
+### v0.2.x - 2025-03-17
+
+- Configured testing infrastructure
+- Created pre-commit hooks for linting and formatting
+- Added Playwright for end-to-end testing
+- Added documentation for testing and linting tools
+
+### v0.1 - 2025-03-16 - Initial Release
+
+- Initialized Next.js project
+- Configured styling and linting
+- Set-up project structure
+- Implemented basic layout components
