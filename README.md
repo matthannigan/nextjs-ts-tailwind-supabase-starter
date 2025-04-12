@@ -68,9 +68,9 @@ Your application will be available at http://localhost:3000.
 ### React Components
 
 - [Layout](https://matthannigan.github.io/nextjs-ts-tailwind-supabase-starter/components/layout) - Components for displaying app pages
-- [Navigation](https://matthannigan.github.io/nextjs-ts-tailwind-supabase-starter/components/navigation) - Components for moving between app pages
-- [Basic UI](https://matthannigan.github.io/nextjs-ts-tailwind-supabase-starter/components/ui) - shadcn UI components already included in project
-- [Forms](https://matthannigan.github.io/nextjs-ts-tailwind-supabase-starter/components/forms) - shadcn Form and Input components already included in project 
+- [Navigation](https://matthannigan.github.io/nextjs-ts-tailwind-supabase-starter/components/navigation/) - Components for moving between app pages
+- [Basic UI](https://matthannigan.github.io/nextjs-ts-tailwind-supabase-starter/components/ui/) - shadcn UI components already included in project
+- [Forms](https://matthannigan.github.io/nextjs-ts-tailwind-supabase-starter/components/forms/) - shadcn Form and Input components already included in project 
 - **Style** - [Typography](https://matthannigan.github.io/nextjs-ts-tailwind-supabase-starter/components/style/typography) and [Light/Dark Theme Switcher](https://matthannigan.github.io/nextjs-ts-tailwind-supabase-starter/components/style/theme-switch)
 
 ### Development Journey
