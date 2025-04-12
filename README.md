@@ -52,7 +52,7 @@ npm run dev
 
 Your application will be available at http://localhost:3000.
 
-## Documentation Sections
+## Documentation
 
 ### Developer Guide
 
@@ -75,9 +75,9 @@ Your application will be available at http://localhost:3000.
 
 ### Development Journey
 
-- [Blog](https://matthannigan.github.io/nextjs-ts-tailwind-supabase-starter/blog) - **in development** journal about approach, misteps, and successes building the template
+- [Blog](https://matthannigan.github.io/nextjs-ts-tailwind-supabase-starter/blog) - *in development* journal about approach, misteps, and successes building the template
 
-## Version History
+## Release History
 
 ### v0.3 - 2025-04-10
 - Installed shadcn@2.3.0 and essential components
@@ -94,8 +94,9 @@ Your application will be available at http://localhost:3000.
 - Added Playwright for end-to-end testing
 - Added documentation for testing and linting tools
 
-### v0.1 - 2025-03-16 - Initial Release
+### v0.1 - 2025-03-16
 
+- Initial Release
 - Initialized Next.js project
 - Configured styling and linting
 - Set-up project structure
