@@ -16,7 +16,7 @@ const config: Config = {
   // GitHub pages deployment config.
   organizationName: 'matthannigan', // Replace with your GitHub org/user name
   projectName: 'nextjs-ts-tailwind-supabase-starter', // Replace with your repo name
-  trailingSlash: false,
+  trailingSlash: undefined,
   deploymentBranch: 'gh-pages',
 
   onBrokenLinks: 'throw',

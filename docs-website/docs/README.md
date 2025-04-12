@@ -73,9 +73,9 @@ Your application will be available at http://localhost:3000.
 ### React Components
 
 - [Layout](./components/layout) - Components for displaying app pages
-- [Navigation](./components/navigation) - Components for moving between app pages
-- [Basic UI](./components/ui) - shadcn UI components already included in project
-- [Forms](./components/forms) - shadcn Form and Input components already included in project 
+- [Navigation](./components/navigation/) - Components for moving between app pages
+- [Basic UI](./components/ui/) - shadcn UI components already included in project
+- [Forms](./components/forms/) - shadcn Form and Input components already included in project 
 - **Style** - [Typography](./components/style/typography) and [Light/Dark Theme Switcher](./components/style/theme-switch)
 
 ### Development Journey
